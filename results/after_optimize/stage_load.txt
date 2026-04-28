@@ -1,0 +1,736 @@
+execution: local
+        script: load-test/parsec_event_stage_load.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 10 max VUs, 10m30s max duration (incl. graceful stop):
+              * ramping_load: Up to 10 looping VUs for 10m0s over 3 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста с постепенным изменением нагрузки  source=console
+INFO[0000] 📈 Профиль: 0 → 10 VUs (3 мин) → 10 VUs (4 мин) → 0 VUs (3 мин)  source=console
+INFO[0000] 📊 Метрики будут доступны для построения графиков в Grafana/K6 Cloud  source=console
+INFO[0025] ⬆️ [RAMPUP] VU:4/10 | Iter:0 | Skip:300 | Status:200 | Time:2333ms | Events:250 | Size:1233.18KB  source=console
+INFO[0029] ⬆️ [RAMPUP] VU:4/10 | Iter:1 | Skip:550 | Status:200 | Time:2554ms | Events:250 | Size:1360.16KB  source=console
+INFO[0031] ⬆️ [RAMPUP] VU:4/10 | Iter:2 | Skip:800 | Status:200 | Time:2235ms | Events:250 | Size:1327.31KB  source=console
+INFO[0035] ⬆️ [RAMPUP] VU:4/10 | Iter:3 | Skip:1050 | Status:200 | Time:2384ms | Events:250 | Size:1381.10KB  source=console
+INFO[0038] ⬆️ [RAMPUP] VU:4/10 | Iter:4 | Skip:1300 | Status:200 | Time:2289ms | Events:250 | Size:1504.86KB  source=console
+INFO[0042] ⬆️ [RAMPUP] VU:4/10 | Iter:5 | Skip:1550 | Status:200 | Time:2463ms | Events:250 | Size:1369.66KB  source=console
+INFO[0043] ⬆️ [RAMPUP] VU:1/10 | Iter:0 | Skip:0 | Status:200 | Time:2243ms | Events:250 | Size:1453.01KB  source=console
+INFO[0045] ⬆️ [RAMPUP] VU:4/10 | Iter:6 | Skip:1800 | Status:200 | Time:2485ms | Events:250 | Size:1595.48KB  source=console
+INFO[0047] ⬆️ [RAMPUP] VU:1/10 | Iter:1 | Skip:250 | Status:200 | Time:2297ms | Events:250 | Size:1334.69KB  source=console
+INFO[0048] ⬆️ [RAMPUP] VU:4/10 | Iter:7 | Skip:2050 | Status:200 | Time:2282ms | Events:250 | Size:1463.67KB  source=console
+INFO[0049] ⬆️ [RAMPUP] VU:1/10 | Iter:2 | Skip:500 | Status:200 | Time:2520ms | Events:250 | Size:1303.13KB  source=console
+INFO[0051] ⬆️ [RAMPUP] VU:4/10 | Iter:8 | Skip:2300 | Status:200 | Time:2524ms | Events:250 | Size:1673.98KB  source=console
+INFO[0053] ⬆️ [RAMPUP] VU:1/10 | Iter:3 | Skip:750 | Status:200 | Time:2546ms | Events:250 | Size:1318.58KB  source=console
+INFO[0054] ⬆️ [RAMPUP] VU:4/10 | Iter:9 | Skip:2550 | Status:200 | Time:2588ms | Events:250 | Size:1550.80KB  source=console
+INFO[0056] ⬆️ [RAMPUP] VU:1/10 | Iter:4 | Skip:1000 | Status:200 | Time:2516ms | Events:250 | Size:1399.15KB  source=console
+INFO[0057] ⬆️ [RAMPUP] VU:4/10 | Iter:10 | Skip:2800 | Status:200 | Time:2448ms | Events:250 | Size:1405.39KB  source=console
+INFO[0059] ⬆️ [RAMPUP] VU:1/10 | Iter:5 | Skip:1250 | Status:200 | Time:2593ms | Events:250 | Size:1476.70KB  source=console
+INFO[0060] ⬆️ [RAMPUP] VU:4/10 | Iter:11 | Skip:3050 | Status:200 | Time:2381ms | Events:250 | Size:1382.91KB  source=console
+INFO[0061] ⬆️ [RAMPUP] VU:2/10 | Iter:0 | Skip:100 | Status:200 | Time:2507ms | Events:250 | Size:1469.88KB  source=console
+INFO[0062] ⬆️ [RAMPUP] VU:1/10 | Iter:6 | Skip:1500 | Status:200 | Time:2463ms | Events:250 | Size:1369.29KB  source=console
+INFO[0063] ⬆️ [RAMPUP] VU:4/10 | Iter:12 | Skip:3300 | Status:200 | Time:2569ms | Events:250 | Size:1620.08KB  source=console
+INFO[0064] ⬆️ [RAMPUP] VU:2/10 | Iter:1 | Skip:350 | Status:200 | Time:2421ms | Events:250 | Size:1237.70KB  source=console
+INFO[0066] ⬆️ [RAMPUP] VU:1/10 | Iter:7 | Skip:1750 | Status:200 | Time:2631ms | Events:250 | Size:1592.06KB  source=console
+INFO[0067] ⬆️ [RAMPUP] VU:4/10 | Iter:13 | Skip:3550 | Status:200 | Time:2649ms | Events:250 | Size:1788.61KB  source=console
+INFO[0067] ⬆️ [RAMPUP] VU:2/10 | Iter:2 | Skip:600 | Status:200 | Time:2411ms | Events:250 | Size:1350.35KB  source=console
+INFO[0068] ⬆️ [RAMPUP] VU:1/10 | Iter:8 | Skip:2000 | Status:200 | Time:2500ms | Events:250 | Size:1429.40KB  source=console
+INFO[0070] ⬆️ [RAMPUP] VU:4/10 | Iter:14 | Skip:3800 | Status:200 | Time:2437ms | Events:250 | Size:1481.23KB  source=console
+INFO[0070] ⬆️ [RAMPUP] VU:2/10 | Iter:3 | Skip:850 | Status:200 | Time:2457ms | Events:250 | Size:1295.37KB  source=console
+INFO[0072] ⬆️ [RAMPUP] VU:1/10 | Iter:9 | Skip:2250 | Status:200 | Time:2464ms | Events:250 | Size:1647.94KB  source=console
+INFO[0073] ⬆️ [RAMPUP] VU:4/10 | Iter:15 | Skip:4050 | Status:200 | Time:2321ms | Events:250 | Size:1540.69KB  source=console
+INFO[0074] ⬆️ [RAMPUP] VU:2/10 | Iter:4 | Skip:1100 | Status:200 | Time:2520ms | Events:250 | Size:1472.88KB  source=console
+INFO[0076] ⬆️ [RAMPUP] VU:1/10 | Iter:10 | Skip:2500 | Status:200 | Time:2436ms | Events:250 | Size:1566.92KB  source=console
+INFO[0076] ⬆️ [RAMPUP] VU:4/10 | Iter:16 | Skip:4300 | Status:200 | Time:2596ms | Events:250 | Size:1765.42KB  source=console
+INFO[0078] ⬆️ [RAMPUP] VU:2/10 | Iter:5 | Skip:1350 | Status:200 | Time:2564ms | Events:250 | Size:1437.20KB  source=console
+INFO[0079] ⬆️ [RAMPUP] VU:1/10 | Iter:11 | Skip:2750 | Status:200 | Time:2698ms | Events:250 | Size:1499.73KB  source=console
+INFO[0080] ⬆️ [RAMPUP] VU:2/10 | Iter:6 | Skip:1600 | Status:200 | Time:2464ms | Events:250 | Size:1478.33KB  source=console
+INFO[0081] ⬆️ [RAMPUP] VU:4/10 | Iter:17 | Skip:4550 | Status:200 | Time:4348ms | Events:250 | Size:1624.29KB  source=console
+INFO[0081] ⬆️ [RAMPUP] VU:3/10 | Iter:0 | Skip:200 | Status:200 | Time:4400ms | Events:250 | Size:1442.41KB  source=console
+INFO[0082] ⬆️ [RAMPUP] VU:1/10 | Iter:12 | Skip:3000 | Status:200 | Time:2487ms | Events:250 | Size:1298.00KB  source=console
+INFO[0085] ⬆️ [RAMPUP] VU:4/10 | Iter:18 | Skip:4800 | Status:200 | Time:2597ms | Events:250 | Size:1891.32KB  source=console
+INFO[0085] ⬆️ [RAMPUP] VU:2/10 | Iter:7 | Skip:1850 | Status:200 | Time:3935ms | Events:250 | Size:1529.47KB  source=console
+INFO[0086] ⬆️ [RAMPUP] VU:1/10 | Iter:13 | Skip:3250 | Status:200 | Time:2643ms | Events:250 | Size:1612.36KB  source=console
+INFO[0087] ⬆️ [RAMPUP] VU:3/10 | Iter:1 | Skip:450 | Status:200 | Time:4748ms | Events:250 | Size:1239.76KB  source=console
+INFO[0089] ⬆️ [RAMPUP] VU:2/10 | Iter:8 | Skip:2100 | Status:200 | Time:2661ms | Events:250 | Size:1514.86KB  source=console
+INFO[0090] ⬆️ [RAMPUP] VU:4/10 | Iter:19 | Skip:5050 | Status:200 | Time:4697ms | Events:250 | Size:1833.58KB  source=console
+INFO[0091] ⬆️ [RAMPUP] VU:3/10 | Iter:2 | Skip:700 | Status:200 | Time:2424ms | Events:250 | Size:1330.61KB  source=console
+INFO[0091] ⬆️ [RAMPUP] VU:1/10 | Iter:14 | Skip:3500 | Status:200 | Time:4379ms | Events:250 | Size:1756.85KB  source=console
+INFO[0093] ⬆️ [RAMPUP] VU:3/10 | Iter:3 | Skip:950 | Status:200 | Time:2443ms | Events:250 | Size:1374.89KB  source=console
+INFO[0094] ⬆️ [RAMPUP] VU:1/10 | Iter:15 | Skip:3750 | Status:200 | Time:2469ms | Events:250 | Size:1557.02KB  source=console
+INFO[0094] ⬆️ [RAMPUP] VU:2/10 | Iter:9 | Skip:2350 | Status:200 | Time:4346ms | Events:250 | Size:1642.94KB  source=console
+INFO[0096] ⬆️ [RAMPUP] VU:4/10 | Iter:20 | Skip:5300 | Status:200 | Time:4575ms | Events:250 | Size:1721.29KB  source=console
+INFO[0097] ⬆️ [RAMPUP] VU:8/10 | Iter:0 | Skip:700 | Status:200 | Time:2411ms | Events:250 | Size:1330.61KB  source=console
+INFO[0097] ⬆️ [RAMPUP] VU:1/10 | Iter:16 | Skip:4000 | Status:200 | Time:2958ms | Events:250 | Size:1530.57KB  source=console
+INFO[0097] ⬆️ [RAMPUP] VU:3/10 | Iter:4 | Skip:1200 | Status:200 | Time:2586ms | Events:250 | Size:1449.17KB  source=console
+INFO[0098] ⬆️ [RAMPUP] VU:2/10 | Iter:10 | Skip:2600 | Status:200 | Time:2675ms | Events:250 | Size:1542.19KB  source=console
+INFO[0100] ⬆️ [RAMPUP] VU:4/10 | Iter:21 | Skip:5550 | Status:200 | Time:2441ms | Events:250 | Size:1554.22KB  source=console
+INFO[0100] ⬆️ [RAMPUP] VU:3/10 | Iter:5 | Skip:1450 | Status:200 | Time:2398ms | Events:250 | Size:1416.03KB  source=console
+INFO[0101] ⬆️ [RAMPUP] VU:2/10 | Iter:11 | Skip:2850 | Status:200 | Time:2657ms | Events:250 | Size:1347.98KB  source=console
+INFO[0104] ⬆️ [RAMPUP] VU:3/10 | Iter:6 | Skip:1700 | Status:200 | Time:2995ms | Events:250 | Size:1524.96KB  source=console
+INFO[0104] ⬆️ [RAMPUP] VU:4/10 | Iter:22 | Skip:5800 | Status:200 | Time:3371ms | Events:250 | Size:1689.63KB  source=console
+INFO[0104] ⬆️ [RAMPUP] VU:2/10 | Iter:12 | Skip:3100 | Status:200 | Time:2791ms | Events:250 | Size:1429.04KB  source=console
+INFO[0105] ⬆️ [RAMPUP] VU:8/10 | Iter:1 | Skip:950 | Status:200 | Time:6457ms | Events:250 | Size:1374.89KB  source=console
+INFO[0105] ⬆️ [RAMPUP] VU:1/10 | Iter:17 | Skip:4250 | Status:200 | Time:6837ms | Events:250 | Size:1729.32KB  source=console
+INFO[0107] ⬆️ [RAMPUP] VU:4/10 | Iter:23 | Skip:6050 | Status:200 | Time:2694ms | Events:250 | Size:1800.83KB  source=console
+INFO[0107] ⬆️ [RAMPUP] VU:3/10 | Iter:7 | Skip:1950 | Status:200 | Time:2619ms | Events:250 | Size:1459.28KB  source=console
+INFO[0109] ⬆️ [RAMPUP] VU:8/10 | Iter:2 | Skip:1200 | Status:200 | Time:2508ms | Events:250 | Size:1449.17KB  source=console
+INFO[0109] ⬆️ [RAMPUP] VU:2/10 | Iter:13 | Skip:3350 | Status:200 | Time:3867ms | Events:250 | Size:1657.68KB  source=console
+INFO[0110] ⬆️ [RAMPUP] VU:4/10 | Iter:24 | Skip:6300 | Status:200 | Time:2614ms | Events:250 | Size:1573.64KB  source=console
+INFO[0110] ⬆️ [RAMPUP] VU:1/10 | Iter:18 | Skip:4500 | Status:200 | Time:4367ms | Events:250 | Size:1641.54KB  source=console
+INFO[0111] ⬆️ [RAMPUP] VU:3/10 | Iter:8 | Skip:2200 | Status:200 | Time:2790ms | Events:250 | Size:1645.19KB  source=console
+INFO[0113] ⬆️ [RAMPUP] VU:2/10 | Iter:14 | Skip:3600 | Status:200 | Time:2691ms | Events:250 | Size:1763.98KB  source=console
+INFO[0114] ⬆️ [RAMPUP] VU:8/10 | Iter:3 | Skip:1450 | Status:200 | Time:4653ms | Events:250 | Size:1416.03KB  source=console
+INFO[0115] ⬆️ [RAMPUP] VU:1/10 | Iter:19 | Skip:4750 | Status:200 | Time:2827ms | Events:250 | Size:1846.81KB  source=console
+INFO[0115] ⬆️ [RAMPUP] VU:4/10 | Iter:25 | Skip:6550 | Status:200 | Time:4205ms | Events:250 | Size:1991.04KB  source=console
+INFO[0117] ⬆️ [RAMPUP] VU:5/10 | Iter:0 | Skip:400 | Status:200 | Time:4855ms | Events:250 | Size:1216.86KB  source=console
+INFO[0118] ⬆️ [RAMPUP] VU:8/10 | Iter:4 | Skip:1700 | Status:200 | Time:3752ms | Events:250 | Size:1524.96KB  source=console
+INFO[0120] ⬆️ [RAMPUP] VU:2/10 | Iter:15 | Skip:3850 | Status:200 | Time:5788ms | Events:250 | Size:1502.58KB  source=console
+INFO[0120] ⬆️ [RAMPUP] VU:3/10 | Iter:9 | Skip:2450 | Status:200 | Time:6816ms | Events:250 | Size:1565.88KB  source=console
+INFO[0120] ⬆️ [RAMPUP] VU:1/10 | Iter:20 | Skip:5000 | Status:200 | Time:4599ms | Events:250 | Size:1781.26KB  source=console
+INFO[0121] ⬆️ [RAMPUP] VU:4/10 | Iter:26 | Skip:6800 | Status:200 | Time:5219ms | Events:250 | Size:1934.44KB  source=console
+INFO[0121] ⬆️ [RAMPUP] VU:5/10 | Iter:1 | Skip:650 | Status:200 | Time:2481ms | Events:250 | Size:1353.88KB  source=console
+INFO[0121] ⬆️ [RAMPUP] VU:8/10 | Iter:5 | Skip:1950 | Status:200 | Time:2541ms | Events:250 | Size:1459.28KB  source=console
+INFO[0123] ⬆️ [RAMPUP] VU:3/10 | Iter:10 | Skip:2700 | Status:200 | Time:3259ms | Events:250 | Size:1515.49KB  source=console
+INFO[0124] ⬆️ [RAMPUP] VU:4/10 | Iter:27 | Skip:7050 | Status:200 | Time:2712ms | Events:250 | Size:1812.14KB  source=console
+INFO[0125] ⬆️ [RAMPUP] VU:2/10 | Iter:16 | Skip:4100 | Status:200 | Time:4767ms | Events:250 | Size:1559.39KB  source=console
+INFO[0125] ⬆️ [RAMPUP] VU:5/10 | Iter:2 | Skip:900 | Status:200 | Time:2573ms | Events:250 | Size:1310.25KB  source=console
+INFO[0125] ⬆️ [RAMPUP] VU:1/10 | Iter:21 | Skip:5250 | Status:200 | Time:4508ms | Events:250 | Size:1757.13KB  source=console
+INFO[0126] ⬆️ [RAMPUP] VU:8/10 | Iter:6 | Skip:2200 | Status:200 | Time:3032ms | Events:250 | Size:1645.19KB  source=console
+INFO[0127] ⬆️ [RAMPUP] VU:3/10 | Iter:11 | Skip:2950 | Status:200 | Time:2556ms | Events:250 | Size:1329.97KB  source=console
+INFO[0129] ⬆️ [RAMPUP] VU:4/10 | Iter:28 | Skip:7300 | Status:200 | Time:3765ms | Events:250 | Size:1941.73KB  source=console
+INFO[0129] ⬆️ [RAMPUP] VU:2/10 | Iter:17 | Skip:4350 | Status:200 | Time:2654ms | Events:250 | Size:1728.99KB  source=console
+INFO[0129] ⬆️ [RAMPUP] VU:5/10 | Iter:3 | Skip:1150 | Status:200 | Time:3962ms | Events:250 | Size:1479.28KB  source=console
+INFO[0130] ⬆️ [RAMPUP] VU:8/10 | Iter:7 | Skip:2450 | Status:200 | Time:3576ms | Events:250 | Size:1565.88KB  source=console
+INFO[0130] ⬆️ [RAMPUP] VU:1/10 | Iter:22 | Skip:5500 | Status:200 | Time:4210ms | Events:250 | Size:1530.09KB  source=console
+INFO[0131] ⬆️ [RAMPUP] VU:3/10 | Iter:12 | Skip:3200 | Status:200 | Time:2519ms | Events:250 | Size:1540.88KB  source=console
+INFO[0132] ⬆️ [RAMPUP] VU:2/10 | Iter:18 | Skip:4600 | Status:200 | Time:3156ms | Events:250 | Size:1745.81KB  source=console
+INFO[0132] ⬆️ [RAMPUP] VU:5/10 | Iter:4 | Skip:1400 | Status:200 | Time:2656ms | Events:250 | Size:1465.63KB  source=console
+INFO[0136] ⬆️ [RAMPUP] VU:3/10 | Iter:13 | Skip:3450 | Status:200 | Time:3880ms | Events:250 | Size:1748.65KB  source=console
+INFO[0133] ⬆️ [RAMPUP] VU:4/10 | Iter:29 | Skip:7550 | Status:200 | Time:4180ms | Events:250 | Size:1957.30KB  source=console
+INFO[0134] ⬆️ [RAMPUP] VU:8/10 | Iter:8 | Skip:2700 | Status:200 | Time:3489ms | Events:250 | Size:1515.49KB  source=console
+INFO[0135] ⬆️ [RAMPUP] VU:6/10 | Iter:0 | Skip:500 | Status:200 | Time:4532ms | Events:250 | Size:1303.13KB  source=console
+INFO[0134] ⬆️ [RAMPUP] VU:1/10 | Iter:23 | Skip:5750 | Status:200 | Time:2719ms | Events:250 | Size:1719.27KB  source=console
+INFO[0143] ⬆️ [RAMPUP] VU:6/10 | Iter:1 | Skip:750 | Status:200 | Time:3166ms | Events:250 | Size:1318.58KB  source=console
+INFO[0143] ⬆️ [RAMPUP] VU:2/10 | Iter:19 | Skip:4850 | Status:200 | Time:4176ms | Events:250 | Size:1844.92KB  source=console
+INFO[0143] ⬆️ [RAMPUP] VU:5/10 | Iter:5 | Skip:1650 | Status:200 | Time:4356ms | Events:250 | Size:1475.85KB  source=console
+INFO[0144] ⬆️ [RAMPUP] VU:8/10 | Iter:9 | Skip:2950 | Status:200 | Time:4511ms | Events:250 | Size:1329.97KB  source=console
+INFO[0144] ⬆️ [RAMPUP] VU:3/10 | Iter:14 | Skip:3700 | Status:200 | Time:5251ms | Events:250 | Size:1604.29KB  source=console
+INFO[0144] ⬆️ [RAMPUP] VU:1/10 | Iter:24 | Skip:6000 | Status:200 | Time:5182ms | Events:250 | Size:1830.66KB  source=console
+INFO[0145] ⬆️ [RAMPUP] VU:4/10 | Iter:30 | Skip:7800 | Status:200 | Time:4765ms | Events:250 | Size:2073.54KB  source=console
+INFO[0148] ⬆️ [RAMPUP] VU:3/10 | Iter:15 | Skip:3950 | Status:200 | Time:3155ms | Events:250 | Size:1530.11KB  source=console
+INFO[0149] ⬆️ [RAMPUP] VU:5/10 | Iter:6 | Skip:1900 | Status:200 | Time:4928ms | Events:250 | Size:1466.60KB  source=console
+INFO[0149] ⬆️ [RAMPUP] VU:6/10 | Iter:2 | Skip:1000 | Status:200 | Time:4961ms | Events:250 | Size:1399.15KB  source=console
+INFO[0149] ⬆️ [RAMPUP] VU:8/10 | Iter:10 | Skip:3200 | Status:200 | Time:4469ms | Events:250 | Size:1540.88KB  source=console
+INFO[0150] ⬆️ [RAMPUP] VU:1/10 | Iter:25 | Skip:6250 | Status:200 | Time:5214ms | Events:250 | Size:1559.58KB  source=console
+INFO[0150] ⬆️ [RAMPUP] VU:2/10 | Iter:20 | Skip:5100 | Status:200 | Time:5299ms | Events:250 | Size:1893.89KB  source=console
+INFO[0150] ⬆️ [RAMPUP] VU:4/10 | Iter:31 | Skip:8050 | Status:200 | Time:4498ms | Events:250 | Size:1815.73KB  source=console
+INFO[0151] ⬆️ [RAMPUP] VU:7/10 | Iter:0 | Skip:600 | Status:200 | Time:2846ms | Events:250 | Size:1350.35KB  source=console
+INFO[0152] ⬆️ [RAMPUP] VU:3/10 | Iter:16 | Skip:4200 | Status:200 | Time:2623ms | Events:250 | Size:1703.31KB  source=console
+INFO[0154] ⬆️ [RAMPUP] VU:6/10 | Iter:3 | Skip:1250 | Status:200 | Time:3847ms | Events:250 | Size:1476.70KB  source=console
+INFO[0154] ⬆️ [RAMPUP] VU:5/10 | Iter:7 | Skip:2150 | Status:200 | Time:4337ms | Events:250 | Size:1619.83KB  source=console
+INFO[0155] ⬆️ [RAMPUP] VU:2/10 | Iter:21 | Skip:5350 | Status:200 | Time:4459ms | Events:250 | Size:1558.19KB  source=console
+INFO[0155] ⬆️ [RAMPUP] VU:7/10 | Iter:1 | Skip:850 | Status:200 | Time:2377ms | Events:250 | Size:1295.37KB  source=console
+INFO[0155] ⬆️ [RAMPUP] VU:4/10 | Iter:32 | Skip:8300 | Status:200 | Time:4216ms | Events:250 | Size:1822.75KB  source=console
+INFO[0156] ⬆️ [RAMPUP] VU:8/10 | Iter:11 | Skip:3450 | Status:200 | Time:5624ms | Events:250 | Size:1748.65KB  source=console
+INFO[0157] ⬆️ [RAMPUP] VU:1/10 | Iter:26 | Skip:6500 | Status:200 | Time:6245ms | Events:250 | Size:1940.69KB  source=console
+INFO[0158] ⬆️ [RAMPUP] VU:5/10 | Iter:8 | Skip:2400 | Status:200 | Time:2450ms | Events:250 | Size:1594.96KB  source=console
+INFO[0158] ⬆️ [RAMPUP] VU:6/10 | Iter:4 | Skip:1500 | Status:200 | Time:3773ms | Events:250 | Size:1369.29KB  source=console
+INFO[0159] ⬆️ [RAMPUP] VU:3/10 | Iter:17 | Skip:4450 | Status:200 | Time:5544ms | Events:250 | Size:1663.38KB  source=console
+INFO[0159] ⬆️ [RAMPUP] VU:2/10 | Iter:22 | Skip:5600 | Status:200 | Time:3585ms | Events:250 | Size:1619.71KB  source=console
+INFO[0160] ⬆️ [RAMPUP] VU:7/10 | Iter:2 | Skip:1100 | Status:200 | Time:4753ms | Events:250 | Size:1472.88KB  source=console
+INFO[0161] ⬆️ [RAMPUP] VU:4/10 | Iter:33 | Skip:8550 | Status:200 | Time:4798ms | Events:250 | Size:2117.80KB  source=console
+INFO[0161] ⬆️ [RAMPUP] VU:5/10 | Iter:9 | Skip:2650 | Status:200 | Time:2759ms | Events:250 | Size:1551.12KB  source=console
+INFO[0162] ⬆️ [RAMPUP] VU:3/10 | Iter:18 | Skip:4700 | Status:200 | Time:2498ms | Events:250 | Size:1791.42KB  source=console
+INFO[0163] ⬆️ [RAMPUP] VU:8/10 | Iter:12 | Skip:3700 | Status:200 | Time:5627ms | Events:250 | Size:1604.29KB  source=console
+INFO[0163] ⬆️ [RAMPUP] VU:2/10 | Iter:23 | Skip:5850 | Status:200 | Time:2566ms | Events:250 | Size:1722.65KB  source=console
+INFO[0163] ⬆️ [RAMPUP] VU:1/10 | Iter:27 | Skip:6750 | Status:200 | Time:6185ms | Events:250 | Size:1966.34KB  source=console
+INFO[0164] ⬆️ [RAMPUP] VU:6/10 | Iter:5 | Skip:1750 | Status:200 | Time:4897ms | Events:250 | Size:1592.06KB  source=console
+INFO[0165] ⬆️ [RAMPUP] VU:7/10 | Iter:3 | Skip:1350 | Status:200 | Time:4185ms | Events:250 | Size:1437.20KB  source=console
+INFO[0166] ⬆️ [RAMPUP] VU:4/10 | Iter:34 | Skip:8800 | Status:200 | Time:4316ms | Events:250 | Size:2096.98KB  source=console
+INFO[0167] ⬆️ [RAMPUP] VU:1/10 | Iter:28 | Skip:7000 | Status:200 | Time:2450ms | Events:250 | Size:1864.65KB  source=console
+INFO[0167] ⬆️ [RAMPUP] VU:5/10 | Iter:10 | Skip:2900 | Status:200 | Time:4426ms | Events:250 | Size:1276.87KB  source=console
+INFO[0167] ⬆️ [RAMPUP] VU:3/10 | Iter:19 | Skip:4950 | Status:200 | Time:4406ms | Events:250 | Size:1819.84KB  source=console
+INFO[0167] ⬆️ [RAMPUP] VU:8/10 | Iter:13 | Skip:3950 | Status:200 | Time:3345ms | Events:250 | Size:1530.11KB  source=console
+INFO[0168] ⬆️ [RAMPUP] VU:2/10 | Iter:24 | Skip:6100 | Status:200 | Time:3991ms | Events:250 | Size:1797.97KB  source=console
+INFO[0170] ⬆️ [RAMPUP] VU:7/10 | Iter:4 | Skip:1600 | Status:200 | Time:3707ms | Events:250 | Size:1478.33KB  source=console
+INFO[0171] ⬆️ [RAMPUP] VU:10/10 | Iter:0 | Skip:900 | Status:200 | Time:4085ms | Events:250 | Size:1310.25KB  source=console
+INFO[0171] ⬆️ [RAMPUP] VU:5/10 | Iter:11 | Skip:3150 | Status:200 | Time:3770ms | Events:250 | Size:1502.74KB  source=console
+INFO[0171] ⬆️ [RAMPUP] VU:6/10 | Iter:6 | Skip:2000 | Status:200 | Time:5439ms | Events:250 | Size:1429.40KB  source=console
+INFO[0171] ⬆️ [RAMPUP] VU:1/10 | Iter:29 | Skip:7250 | Status:200 | Time:4116ms | Events:250 | Size:1851.27KB  source=console
+INFO[0172] ⬆️ [RAMPUP] VU:4/10 | Iter:35 | Skip:9050 | Status:200 | Time:4832ms | Events:250 | Size:1757.94KB  source=console
+INFO[0172] ⬆️ [RAMPUP] VU:2/10 | Iter:25 | Skip:6350 | Status:200 | Time:3637ms | Events:250 | Size:1708.30KB  source=console
+INFO[0174] ⬆️ [RAMPUP] VU:3/10 | Iter:20 | Skip:5200 | Status:200 | Time:6027ms | Events:250 | Size:1829.38KB  source=console
+INFO[0174] ⬆️ [RAMPUP] VU:8/10 | Iter:14 | Skip:4200 | Status:200 | Time:5579ms | Events:250 | Size:1703.31KB  source=console
+INFO[0174] ⬆️ [RAMPUP] VU:7/10 | Iter:5 | Skip:1850 | Status:200 | Time:3565ms | Events:250 | Size:1529.47KB  source=console
+INFO[0175] ⬆️ [RAMPUP] VU:10/10 | Iter:1 | Skip:1150 | Status:200 | Time:4104ms | Events:250 | Size:1479.28KB  source=console
+INFO[0176] ⬆️ [RAMPUP] VU:4/10 | Iter:36 | Skip:9300 | Status:200 | Time:3728ms | Events:250 | Size:2036.48KB  source=console
+INFO[0177] ⬆️ [RAMPUP] VU:5/10 | Iter:12 | Skip:3400 | Status:200 | Time:4617ms | Events:250 | Size:1754.99KB  source=console
+INFO[0177] ⬆️ [RAMPUP] VU:6/10 | Iter:7 | Skip:2250 | Status:200 | Time:4740ms | Events:250 | Size:1647.94KB  source=console
+INFO[0178] ⬆️ [RAMPUP] VU:2/10 | Iter:26 | Skip:6600 | Status:200 | Time:4559ms | Events:250 | Size:1890.63KB  source=console
+INFO[0178] ⬆️ [RAMPUP] VU:10/10 | Iter:2 | Skip:1400 | Status:200 | Time:2464ms | Events:250 | Size:1465.63KB  source=console
+INFO[0179] ⬆️ [RAMPUP] VU:7/10 | Iter:6 | Skip:2100 | Status:200 | Time:3780ms | Events:250 | Size:1514.86KB  source=console
+INFO[0179] ⬆️ [RAMPUP] VU:1/10 | Iter:30 | Skip:7500 | Status:200 | Time:6055ms | Events:250 | Size:1911.58KB  source=console
+INFO[0181] ⬆️ [RAMPUP] VU:8/10 | Iter:15 | Skip:4450 | Status:200 | Time:6271ms | Events:250 | Size:1663.38KB  source=console
+INFO[0181] ⬆️ [RAMPUP] VU:3/10 | Iter:21 | Skip:5450 | Status:200 | Time:6570ms | Events:250 | Size:1510.58KB  source=console
+INFO[0182] ⬆️ [RAMPUP] VU:5/10 | Iter:13 | Skip:3650 | Status:200 | Time:4605ms | Events:250 | Size:1655.29KB  source=console
+INFO[0182] ⬆️ [RAMPUP] VU:4/10 | Iter:37 | Skip:9550 | Status:200 | Time:4555ms | Events:250 | Size:1721.56KB  source=console
+INFO[0182] ⬆️ [RAMPUP] VU:6/10 | Iter:8 | Skip:2500 | Status:200 | Time:3831ms | Events:250 | Size:1566.92KB  source=console
+INFO[0182] ➡️ [STEADY] VU:10/10 | Iter:3 | Skip:1650 | Status:200 | Time:2798ms | Events:250 | Size:1475.85KB  source=console
+INFO[0183] ➡️ [STEADY] VU:2/10 | Iter:27 | Skip:6850 | Status:200 | Time:3113ms | Events:250 | Size:1972.47KB  source=console
+INFO[0184] ⬆️ [RAMPUP] VU:7/10 | Iter:7 | Skip:2350 | Status:200 | Time:4685ms | Events:250 | Size:1642.94KB  source=console
+INFO[0185] ➡️ [STEADY] VU:1/10 | Iter:31 | Skip:7750 | Status:200 | Time:4311ms | Events:250 | Size:2097.35KB  source=console
+INFO[0187] ➡️ [STEADY] VU:9/10 | Iter:0 | Skip:800 | Status:200 | Time:2280ms | Events:250 | Size:1327.31KB  source=console
+INFO[0203] ➡️ [STEADY] VU:6/10 | Iter:9 | Skip:2750 | Status:200 | Time:3880ms | Events:250 | Size:1499.73KB  source=console
+INFO[0203] ➡️ [STEADY] VU:10/10 | Iter:4 | Skip:1900 | Status:200 | Time:4157ms | Events:250 | Size:1466.60KB  source=console
+INFO[0204] ➡️ [STEADY] VU:8/10 | Iter:16 | Skip:4700 | Status:200 | Time:4829ms | Events:250 | Size:1791.42KB  source=console
+INFO[0204] ➡️ [STEADY] VU:1/10 | Iter:32 | Skip:8000 | Status:200 | Time:4298ms | Events:250 | Size:1912.21KB  source=console
+INFO[0204] ➡️ [STEADY] VU:5/10 | Iter:14 | Skip:3900 | Status:200 | Time:4663ms | Events:250 | Size:1493.31KB  source=console
+INFO[0205] ➡️ [STEADY] VU:3/10 | Iter:22 | Skip:5700 | Status:200 | Time:5657ms | Events:250 | Size:1682.20KB  source=console
+INFO[0206] ➡️ [STEADY] VU:4/10 | Iter:38 | Skip:9800 | Status:200 | Time:5767ms | Events:250 | Size:1544.09KB  source=console
+INFO[0206] ➡️ [STEADY] VU:7/10 | Iter:8 | Skip:2600 | Status:200 | Time:6020ms | Events:250 | Size:1542.19KB  source=console
+INFO[0207] ➡️ [STEADY] VU:2/10 | Iter:28 | Skip:7100 | Status:200 | Time:6151ms | Events:250 | Size:1712.20KB  source=console
+INFO[0207] ➡️ [STEADY] VU:9/10 | Iter:1 | Skip:1050 | Status:200 | Time:6299ms | Events:250 | Size:1381.10KB  source=console
+INFO[0207] ➡️ [STEADY] VU:6/10 | Iter:10 | Skip:3000 | Status:200 | Time:3033ms | Events:250 | Size:1298.00KB  source=console
+INFO[0209] ➡️ [STEADY] VU:5/10 | Iter:15 | Skip:4150 | Status:200 | Time:4096ms | Events:250 | Size:1613.26KB  source=console
+INFO[0209] ➡️ [STEADY] VU:10/10 | Iter:5 | Skip:2150 | Status:200 | Time:4192ms | Events:250 | Size:1619.83KB  source=console
+INFO[0211] ➡️ [STEADY] VU:3/10 | Iter:23 | Skip:5950 | Status:200 | Time:4109ms | Events:250 | Size:1732.75KB  source=console
+INFO[0211] ➡️ [STEADY] VU:8/10 | Iter:17 | Skip:4950 | Status:200 | Time:6107ms | Events:250 | Size:1819.84KB  source=console
+INFO[0211] ➡️ [STEADY] VU:1/10 | Iter:33 | Skip:8250 | Status:200 | Time:6192ms | Events:250 | Size:1746.60KB  source=console
+INFO[0212] ➡️ [STEADY] VU:6/10 | Iter:11 | Skip:3250 | Status:200 | Time:3757ms | Events:250 | Size:1612.36KB  source=console
+INFO[0213] ➡️ [STEADY] VU:7/10 | Iter:9 | Skip:2850 | Status:200 | Time:6594ms | Events:250 | Size:1347.98KB  source=console
+INFO[0214] ➡️ [STEADY] VU:9/10 | Iter:2 | Skip:1300 | Status:200 | Time:6584ms | Events:250 | Size:1504.86KB  source=console
+INFO[0214] ➡️ [STEADY] VU:4/10 | Iter:39 | Skip:10050 | Status:200 | Time:6753ms | Events:250 | Size:2243.81KB  source=console
+INFO[0215] ➡️ [STEADY] VU:1/10 | Iter:34 | Skip:8500 | Status:200 | Time:3216ms | Events:250 | Size:2177.41KB  source=console
+INFO[0215] ➡️ [STEADY] VU:2/10 | Iter:29 | Skip:7350 | Status:200 | Time:6744ms | Events:250 | Size:1954.76KB  source=console
+INFO[0215] ➡️ [STEADY] VU:8/10 | Iter:18 | Skip:5200 | Status:200 | Time:4057ms | Events:250 | Size:1829.38KB  source=console
+INFO[0216] ➡️ [STEADY] VU:3/10 | Iter:24 | Skip:6200 | Status:200 | Time:4782ms | Events:250 | Size:1741.00KB  source=console
+INFO[0217] ➡️ [STEADY] VU:5/10 | Iter:16 | Skip:4400 | Status:200 | Time:6222ms | Events:250 | Size:1745.00KB  source=console
+INFO[0217] ➡️ [STEADY] VU:10/10 | Iter:6 | Skip:2400 | Status:200 | Time:6029ms | Events:250 | Size:1594.96KB  source=console
+INFO[0220] ➡️ [STEADY] VU:4/10 | Iter:40 | Skip:10300 | Status:200 | Time:4915ms | Events:250 | Size:1828.36KB  source=console
+INFO[0220] ➡️ [STEADY] VU:6/10 | Iter:12 | Skip:3500 | Status:200 | Time:6748ms | Events:250 | Size:1756.85KB  source=console
+INFO[0221] ➡️ [STEADY] VU:8/10 | Iter:19 | Skip:5450 | Status:200 | Time:4286ms | Events:250 | Size:1510.58KB  source=console
+INFO[0221] ➡️ [STEADY] VU:9/10 | Iter:3 | Skip:1550 | Status:200 | Time:6786ms | Events:250 | Size:1369.66KB  source=console
+INFO[0221] ➡️ [STEADY] VU:7/10 | Iter:10 | Skip:3100 | Status:200 | Time:6342ms | Events:250 | Size:1429.04KB  source=console
+INFO[0222] ➡️ [STEADY] VU:10/10 | Iter:7 | Skip:2650 | Status:200 | Time:3870ms | Events:250 | Size:1551.12KB  source=console
+INFO[0222] ➡️ [STEADY] VU:1/10 | Iter:35 | Skip:8750 | Status:200 | Time:7095ms | Events:250 | Size:2063.01KB  source=console
+INFO[0222] ➡️ [STEADY] VU:5/10 | Iter:17 | Skip:4650 | Status:200 | Time:4248ms | Events:250 | Size:1739.85KB  source=console
+INFO[0224] ➡️ [STEADY] VU:3/10 | Iter:25 | Skip:6450 | Status:200 | Time:6932ms | Events:250 | Size:1769.28KB  source=console
+INFO[0224] ➡️ [STEADY] VU:2/10 | Iter:30 | Skip:7600 | Status:200 | Time:7427ms | Events:250 | Size:2034.77KB  source=console
+INFO[0226] ➡️ [STEADY] VU:4/10 | Iter:41 | Skip:10550 | Status:200 | Time:5250ms | Events:250 | Size:1950.06KB  source=console
+INFO[0227] ➡️ [STEADY] VU:8/10 | Iter:20 | Skip:5700 | Status:200 | Time:4096ms | Events:250 | Size:1682.20KB  source=console
+INFO[0227] ➡️ [STEADY] VU:6/10 | Iter:13 | Skip:3750 | Status:200 | Time:6472ms | Events:250 | Size:1557.02KB  source=console
+INFO[0227] ➡️ [STEADY] VU:1/10 | Iter:36 | Skip:9000 | Status:200 | Time:5110ms | Events:250 | Size:1732.27KB  source=console
+INFO[0228] ➡️ [STEADY] VU:10/10 | Iter:8 | Skip:2900 | Status:200 | Time:4246ms | Events:250 | Size:1276.87KB  source=console
+INFO[0228] ➡️ [STEADY] VU:5/10 | Iter:18 | Skip:4900 | Status:200 | Time:4431ms | Events:250 | Size:1843.65KB  source=console
+INFO[0228] ➡️ [STEADY] VU:9/10 | Iter:4 | Skip:1800 | Status:200 | Time:6698ms | Events:250 | Size:1595.48KB  source=console
+INFO[0228] ➡️ [STEADY] VU:7/10 | Iter:11 | Skip:3350 | Status:200 | Time:5856ms | Events:250 | Size:1657.68KB  source=console
+INFO[0231] ➡️ [STEADY] VU:3/10 | Iter:26 | Skip:6700 | Status:200 | Time:6343ms | Events:250 | Size:1933.13KB  source=console
+INFO[0232] ➡️ [STEADY] VU:4/10 | Iter:42 | Skip:10800 | Status:200 | Time:4048ms | Events:250 | Size:2037.22KB  source=console
+INFO[0233] ➡️ [STEADY] VU:2/10 | Iter:31 | Skip:7850 | Status:200 | Time:6631ms | Events:250 | Size:2008.53KB  source=console
+INFO[0233] ➡️ [STEADY] VU:6/10 | Iter:14 | Skip:4000 | Status:200 | Time:3704ms | Events:250 | Size:1530.57KB  source=console
+INFO[0233] ➡️ [STEADY] VU:8/10 | Iter:21 | Skip:5950 | Status:200 | Time:6027ms | Events:250 | Size:1732.75KB  source=console
+INFO[0234] ➡️ [STEADY] VU:9/10 | Iter:5 | Skip:2050 | Status:200 | Time:5866ms | Events:250 | Size:1463.67KB  source=console
+INFO[0234] ➡️ [STEADY] VU:7/10 | Iter:12 | Skip:3600 | Status:200 | Time:4867ms | Events:250 | Size:1763.98KB  source=console
+INFO[0234] ➡️ [STEADY] VU:1/10 | Iter:37 | Skip:9250 | Status:200 | Time:5335ms | Events:250 | Size:2057.55KB  source=console
+INFO[0234] ➡️ [STEADY] VU:10/10 | Iter:9 | Skip:3150 | Status:200 | Time:5853ms | Events:250 | Size:1502.74KB  source=console
+INFO[0235] ➡️ [STEADY] VU:5/10 | Iter:19 | Skip:5150 | Status:200 | Time:5931ms | Events:250 | Size:1874.09KB  source=console
+INFO[0236] ➡️ [STEADY] VU:4/10 | Iter:43 | Skip:11050 | Status:200 | Time:2559ms | Events:250 | Size:1619.87KB  source=console
+INFO[0237] ➡️ [STEADY] VU:3/10 | Iter:27 | Skip:6950 | Status:200 | Time:5616ms | Events:250 | Size:1972.18KB  source=console
+INFO[0239] ➡️ [STEADY] VU:10/10 | Iter:10 | Skip:3400 | Status:200 | Time:4024ms | Events:250 | Size:1754.99KB  source=console
+INFO[0239] ➡️ [STEADY] VU:1/10 | Iter:38 | Skip:9500 | Status:200 | Time:3462ms | Events:250 | Size:1704.97KB  source=console
+INFO[0239] ➡️ [STEADY] VU:7/10 | Iter:13 | Skip:3850 | Status:200 | Time:4116ms | Events:250 | Size:1502.58KB  source=console
+INFO[0240] ➡️ [STEADY] VU:2/10 | Iter:32 | Skip:8100 | Status:200 | Time:6274ms | Events:250 | Size:1866.91KB  source=console
+INFO[0240] ➡️ [STEADY] VU:8/10 | Iter:22 | Skip:6200 | Status:200 | Time:5984ms | Events:250 | Size:1741.00KB  source=console
+INFO[0244] ➡️ [STEADY] VU:1/10 | Iter:39 | Skip:9750 | Status:200 | Time:3438ms | Events:250 | Size:1645.63KB  source=console
+INFO[0241] ➡️ [STEADY] VU:3/10 | Iter:28 | Skip:7200 | Status:200 | Time:3761ms | Events:250 | Size:1777.32KB  source=console
+INFO[0242] ➡️ [STEADY] VU:5/10 | Iter:20 | Skip:5400 | Status:200 | Time:5765ms | Events:250 | Size:1493.63KB  source=console
+INFO[0241] ➡️ [STEADY] VU:6/10 | Iter:15 | Skip:4250 | Status:200 | Time:6294ms | Events:250 | Size:1729.32KB  source=console
+INFO[0241] ➡️ [STEADY] VU:9/10 | Iter:6 | Skip:2300 | Status:200 | Time:5821ms | Events:250 | Size:1673.98KB  source=console
+INFO[0242] ➡️ [STEADY] VU:7/10 | Iter:14 | Skip:4100 | Status:200 | Time:2432ms | Events:250 | Size:1559.39KB  source=console
+INFO[0243] ➡️ [STEADY] VU:10/10 | Iter:11 | Skip:3650 | Status:200 | Time:2895ms | Events:250 | Size:1655.29KB  source=console
+INFO[0241] ➡️ [STEADY] VU:4/10 | Iter:44 | Skip:11300 | Status:200 | Time:3952ms | Events:250 | Size:1402.86KB  source=console
+INFO[0262] ➡️ [STEADY] VU:5/10 | Iter:21 | Skip:5650 | Status:200 | Time:3306ms | Events:250 | Size:1720.82KB  source=console
+INFO[0263] ➡️ [STEADY] VU:2/10 | Iter:33 | Skip:8350 | Status:200 | Time:3850ms | Events:250 | Size:1793.59KB  source=console
+INFO[0264] ➡️ [STEADY] VU:4/10 | Iter:45 | Skip:11550 | Status:200 | Time:4676ms | Events:250 | Size:1526.45KB  source=console
+INFO[0264] ➡️ [STEADY] VU:7/10 | Iter:15 | Skip:4350 | Status:200 | Time:4398ms | Events:250 | Size:1728.99KB  source=console
+INFO[0264] ➡️ [STEADY] VU:1/10 | Iter:40 | Skip:10000 | Status:200 | Time:4049ms | Events:250 | Size:2034.97KB  source=console
+INFO[0265] ➡️ [STEADY] VU:10/10 | Iter:12 | Skip:3900 | Status:200 | Time:5136ms | Events:250 | Size:1493.31KB  source=console
+INFO[0267] ➡️ [STEADY] VU:5/10 | Iter:22 | Skip:5900 | Status:200 | Time:3900ms | Events:250 | Size:1659.18KB  source=console
+INFO[0267] ➡️ [STEADY] VU:2/10 | Iter:34 | Skip:8600 | Status:200 | Time:3866ms | Events:250 | Size:2108.14KB  source=console
+INFO[0267] ➡️ [STEADY] VU:9/10 | Iter:7 | Skip:2550 | Status:200 | Time:7561ms | Events:250 | Size:1550.80KB  source=console
+INFO[0269] ➡️ [STEADY] VU:1/10 | Iter:41 | Skip:10250 | Status:200 | Time:3014ms | Events:250 | Size:2016.63KB  source=console
+INFO[0269] ➡️ [STEADY] VU:4/10 | Iter:46 | Skip:11800 | Status:200 | Time:3769ms | Events:250 | Size:1487.97KB  source=console
+INFO[0269] ➡️ [STEADY] VU:7/10 | Iter:16 | Skip:4600 | Status:200 | Time:3283ms | Events:250 | Size:1745.81KB  source=console
+INFO[0269] ➡️ [STEADY] VU:3/10 | Iter:29 | Skip:7450 | Status:200 | Time:8718ms | Events:250 | Size:1926.87KB  source=console
+INFO[0269] ➡️ [STEADY] VU:8/10 | Iter:23 | Skip:6450 | Status:200 | Time:8411ms | Events:250 | Size:1769.28KB  source=console
+INFO[0269] ➡️ [STEADY] VU:6/10 | Iter:16 | Skip:4500 | Status:200 | Time:8362ms | Events:250 | Size:1641.54KB  source=console
+INFO[0271] ➡️ [STEADY] VU:2/10 | Iter:35 | Skip:8850 | Status:200 | Time:3565ms | Events:250 | Size:2062.01KB  source=console
+INFO[0271] ➡️ [STEADY] VU:10/10 | Iter:13 | Skip:4150 | Status:200 | Time:3561ms | Events:250 | Size:1613.26KB  source=console
+INFO[0272] ➡️ [STEADY] VU:9/10 | Iter:8 | Skip:2800 | Status:200 | Time:4203ms | Events:250 | Size:1405.39KB  source=console
+INFO[0273] ➡️ [STEADY] VU:5/10 | Iter:23 | Skip:6150 | Status:200 | Time:5289ms | Events:250 | Size:1829.13KB  source=console
+INFO[0274] ➡️ [STEADY] VU:7/10 | Iter:17 | Skip:4850 | Status:200 | Time:4055ms | Events:250 | Size:1844.92KB  source=console
+INFO[0274] ➡️ [STEADY] VU:8/10 | Iter:24 | Skip:6700 | Status:200 | Time:4335ms | Events:250 | Size:1933.13KB  source=console
+INFO[0275] ➡️ [STEADY] VU:10/10 | Iter:14 | Skip:4400 | Status:200 | Time:4009ms | Events:250 | Size:1745.00KB  source=console
+INFO[0275] ➡️ [STEADY] VU:3/10 | Iter:30 | Skip:7700 | Status:200 | Time:5813ms | Events:250 | Size:2131.67KB  source=console
+INFO[0276] ➡️ [STEADY] VU:4/10 | Iter:47 | Skip:12050 | Status:200 | Time:5555ms | Events:250 | Size:1489.71KB  source=console
+INFO[0276] ➡️ [STEADY] VU:2/10 | Iter:36 | Skip:9100 | Status:200 | Time:4301ms | Events:250 | Size:1838.17KB  source=console
+INFO[0277] ➡️ [STEADY] VU:6/10 | Iter:17 | Skip:4750 | Status:200 | Time:7674ms | Events:250 | Size:1846.81KB  source=console
+INFO[0278] ➡️ [STEADY] VU:1/10 | Iter:42 | Skip:10500 | Status:200 | Time:8698ms | Events:250 | Size:1906.15KB  source=console
+INFO[0278] ➡️ [STEADY] VU:7/10 | Iter:18 | Skip:5100 | Status:200 | Time:4251ms | Events:250 | Size:1893.89KB  source=console
+INFO[0280] ➡️ [STEADY] VU:10/10 | Iter:15 | Skip:4650 | Status:200 | Time:3937ms | Events:250 | Size:1739.85KB  source=console
+INFO[0281] ➡️ [STEADY] VU:8/10 | Iter:25 | Skip:6950 | Status:200 | Time:4548ms | Events:250 | Size:1972.18KB  source=console
+INFO[0281] ➡️ [STEADY] VU:4/10 | Iter:48 | Skip:12300 | Status:200 | Time:4725ms | Events:250 | Size:1436.22KB  source=console
+INFO[0281] ➡️ [STEADY] VU:9/10 | Iter:9 | Skip:3050 | Status:200 | Time:8446ms | Events:250 | Size:1382.91KB  source=console
+INFO[0282] ➡️ [STEADY] VU:5/10 | Iter:24 | Skip:6400 | Status:200 | Time:8779ms | Events:250 | Size:1720.98KB  source=console
+INFO[0282] ➡️ [STEADY] VU:6/10 | Iter:18 | Skip:5000 | Status:200 | Time:4076ms | Events:250 | Size:1781.26KB  source=console
+INFO[0282] ➡️ [STEADY] VU:1/10 | Iter:43 | Skip:10750 | Status:200 | Time:3225ms | Events:250 | Size:2035.43KB  source=console
+INFO[0283] ➡️ [STEADY] VU:3/10 | Iter:31 | Skip:7950 | Status:200 | Time:5413ms | Events:250 | Size:1932.04KB  source=console
+INFO[0283] ➡️ [STEADY] VU:7/10 | Iter:19 | Skip:5350 | Status:200 | Time:3476ms | Events:250 | Size:1558.19KB  source=console
+INFO[0285] ➡️ [STEADY] VU:2/10 | Iter:37 | Skip:9350 | Status:200 | Time:7194ms | Events:250 | Size:1986.61KB  source=console
+INFO[0286] ➡️ [STEADY] VU:8/10 | Iter:26 | Skip:7200 | Status:200 | Time:4007ms | Events:250 | Size:1777.32KB  source=console
+INFO[0286] ➡️ [STEADY] VU:5/10 | Iter:25 | Skip:6650 | Status:200 | Time:2978ms | Events:250 | Size:1892.28KB  source=console
+INFO[0286] ➡️ [STEADY] VU:4/10 | Iter:49 | Skip:12550 | Status:200 | Time:3913ms | Events:250 | Size:1472.10KB  source=console
+INFO[0287] ➡️ [STEADY] VU:10/10 | Iter:16 | Skip:4900 | Status:200 | Time:6440ms | Events:250 | Size:1843.65KB  source=console
+INFO[0287] ➡️ [STEADY] VU:6/10 | Iter:19 | Skip:5250 | Status:200 | Time:3786ms | Events:250 | Size:1757.13KB  source=console
+INFO[0289] ➡️ [STEADY] VU:1/10 | Iter:44 | Skip:11000 | Status:200 | Time:4717ms | Events:250 | Size:1669.74KB  source=console
+INFO[0289] ➡️ [STEADY] VU:8/10 | Iter:27 | Skip:7450 | Status:200 | Time:2485ms | Events:250 | Size:1926.87KB  source=console
+INFO[0289] ➡️ [STEADY] VU:9/10 | Iter:10 | Skip:3300 | Status:200 | Time:7559ms | Events:250 | Size:1620.08KB  source=console
+INFO[0290] ➡️ [STEADY] VU:2/10 | Iter:38 | Skip:9600 | Status:200 | Time:3154ms | Events:250 | Size:1732.36KB  source=console
+INFO[0291] ➡️ [STEADY] VU:5/10 | Iter:26 | Skip:6900 | Status:200 | Time:2914ms | Events:250 | Size:1985.63KB  source=console
+INFO[0291] ➡️ [STEADY] VU:4/10 | Iter:50 | Skip:12800 | Status:200 | Time:3013ms | Events:250 | Size:1483.98KB  source=console
+INFO[0292] ➡️ [STEADY] VU:3/10 | Iter:32 | Skip:8200 | Status:200 | Time:7421ms | Events:250 | Size:1796.14KB  source=console
+INFO[0292] ➡️ [STEADY] VU:7/10 | Iter:20 | Skip:5600 | Status:200 | Time:7850ms | Events:250 | Size:1619.71KB  source=console
+INFO[0292] ➡️ [STEADY] VU:6/10 | Iter:20 | Skip:5500 | Status:200 | Time:3986ms | Events:250 | Size:1530.09KB  source=console
+INFO[0294] ➡️ [STEADY] VU:8/10 | Iter:28 | Skip:7700 | Status:200 | Time:4011ms | Events:250 | Size:2131.67KB  source=console
+INFO[0294] ➡️ [STEADY] VU:4/10 | Iter:51 | Skip:13050 | Status:200 | Time:3045ms | Events:250 | Size:1507.07KB  source=console
+INFO[0295] ➡️ [STEADY] VU:1/10 | Iter:45 | Skip:11250 | Status:200 | Time:4330ms | Events:250 | Size:1455.32KB  source=console
+INFO[0295] ➡️ [STEADY] VU:10/10 | Iter:17 | Skip:5150 | Status:200 | Time:7068ms | Events:250 | Size:1874.09KB  source=console
+INFO[0296] ➡️ [STEADY] VU:2/10 | Iter:39 | Skip:9850 | Status:200 | Time:4117ms | Events:250 | Size:1548.05KB  source=console
+INFO[0296] ➡️ [STEADY] VU:5/10 | Iter:27 | Skip:7150 | Status:200 | Time:3279ms | Events:250 | Size:1712.17KB  source=console
+INFO[0297] ➡️ [STEADY] VU:6/10 | Iter:21 | Skip:5750 | Status:200 | Time:2869ms | Events:250 | Size:1719.27KB  source=console
+INFO[0299] ➡️ [STEADY] VU:9/10 | Iter:11 | Skip:3550 | Status:200 | Time:8360ms | Events:250 | Size:1788.61KB  source=console
+INFO[0299] ➡️ [STEADY] VU:4/10 | Iter:52 | Skip:13300 | Status:200 | Time:4019ms | Events:250 | Size:1515.74KB  source=console
+INFO[0300] ➡️ [STEADY] VU:10/10 | Iter:18 | Skip:5400 | Status:200 | Time:3132ms | Events:250 | Size:1493.63KB  source=console
+INFO[0300] ➡️ [STEADY] VU:8/10 | Iter:29 | Skip:7950 | Status:200 | Time:3546ms | Events:250 | Size:1932.04KB  source=console
+INFO[0300] ➡️ [STEADY] VU:1/10 | Iter:46 | Skip:11500 | Status:200 | Time:4115ms | Events:250 | Size:1478.61KB  source=console
+INFO[0303] ➡️ [STEADY] VU:9/10 | Iter:12 | Skip:3800 | Status:200 | Time:3693ms | Events:250 | Size:1481.23KB  source=console
+INFO[0301] ➡️ [STEADY] VU:3/10 | Iter:33 | Skip:8450 | Status:200 | Time:8441ms | Events:250 | Size:1971.25KB  source=console
+INFO[0301] ➡️ [STEADY] VU:7/10 | Iter:21 | Skip:5850 | Status:200 | Time:7818ms | Events:250 | Size:1722.65KB  source=console
+INFO[0301] ➡️ [STEADY] VU:2/10 | Iter:40 | Skip:10100 | Status:200 | Time:3594ms | Events:250 | Size:2172.44KB  source=console
+INFO[0302] ➡️ [STEADY] VU:6/10 | Iter:22 | Skip:6000 | Status:200 | Time:3277ms | Events:250 | Size:1830.66KB  source=console
+INFO[0302] ➡️ [STEADY] VU:5/10 | Iter:28 | Skip:7400 | Status:200 | Time:5840ms | Events:250 | Size:1961.23KB  source=console
+INFO[0323] ➡️ [STEADY] VU:8/10 | Iter:30 | Skip:8200 | Status:200 | Time:3341ms | Events:250 | Size:1796.14KB  source=console
+INFO[0324] ➡️ [STEADY] VU:5/10 | Iter:29 | Skip:7650 | Status:200 | Time:3707ms | Events:250 | Size:2078.77KB  source=console
+INFO[0324] ➡️ [STEADY] VU:10/10 | Iter:19 | Skip:5650 | Status:200 | Time:5018ms | Events:250 | Size:1720.82KB  source=console
+INFO[0325] ➡️ [STEADY] VU:9/10 | Iter:13 | Skip:4050 | Status:200 | Time:4019ms | Events:250 | Size:1540.69KB  source=console
+INFO[0325] ➡️ [STEADY] VU:7/10 | Iter:22 | Skip:6100 | Status:200 | Time:5551ms | Events:250 | Size:1797.97KB  source=console
+INFO[0326] ➡️ [STEADY] VU:2/10 | Iter:41 | Skip:10350 | Status:200 | Time:4935ms | Events:250 | Size:1863.92KB  source=console
+INFO[0327] ➡️ [STEADY] VU:4/10 | Iter:53 | Skip:13550 | Status:200 | Time:6331ms | Events:250 | Size:1488.53KB  source=console
+INFO[0328] ➡️ [STEADY] VU:1/10 | Iter:47 | Skip:11750 | Status:200 | Time:7655ms | Events:250 | Size:1483.83KB  source=console
+INFO[0328] ➡️ [STEADY] VU:6/10 | Iter:23 | Skip:6250 | Status:200 | Time:7676ms | Events:250 | Size:1559.58KB  source=console
+INFO[0328] ➡️ [STEADY] VU:3/10 | Iter:34 | Skip:8700 | Status:200 | Time:7447ms | Events:250 | Size:2006.09KB  source=console
+INFO[0328] ➡️ [STEADY] VU:10/10 | Iter:20 | Skip:5900 | Status:200 | Time:3548ms | Events:250 | Size:1659.18KB  source=console
+INFO[0329] ➡️ [STEADY] VU:9/10 | Iter:14 | Skip:4300 | Status:200 | Time:4337ms | Events:250 | Size:1765.42KB  source=console
+INFO[0329] ➡️ [STEADY] VU:8/10 | Iter:31 | Skip:8450 | Status:200 | Time:5025ms | Events:250 | Size:1971.25KB  source=console
+INFO[0329] ➡️ [STEADY] VU:5/10 | Iter:30 | Skip:7900 | Status:200 | Time:4900ms | Events:250 | Size:1843.63KB  source=console
+INFO[0329] ➡️ [STEADY] VU:7/10 | Iter:23 | Skip:6350 | Status:200 | Time:3537ms | Events:250 | Size:1708.30KB  source=console
+INFO[0331] ➡️ [STEADY] VU:3/10 | Iter:35 | Skip:8950 | Status:200 | Time:3274ms | Events:250 | Size:1862.15KB  source=console
+INFO[0332] ➡️ [STEADY] VU:2/10 | Iter:42 | Skip:10600 | Status:200 | Time:4463ms | Events:250 | Size:1834.11KB  source=console
+INFO[0332] ➡️ [STEADY] VU:4/10 | Iter:54 | Skip:13800 | Status:200 | Time:3511ms | Events:250 | Size:1479.36KB  source=console
+INFO[0333] ➡️ [STEADY] VU:1/10 | Iter:48 | Skip:12000 | Status:200 | Time:3770ms | Events:250 | Size:1519.07KB  source=console
+INFO[0334] ➡️ [STEADY] VU:8/10 | Iter:32 | Skip:8700 | Status:200 | Time:4169ms | Events:250 | Size:2006.09KB  source=console
+INFO[0334] ➡️ [STEADY] VU:6/10 | Iter:24 | Skip:6500 | Status:200 | Time:4606ms | Events:250 | Size:1940.69KB  source=console
+INFO[0334] ➡️ [STEADY] VU:9/10 | Iter:15 | Skip:4550 | Status:200 | Time:4637ms | Events:250 | Size:1624.29KB  source=console
+INFO[0335] ➡️ [STEADY] VU:10/10 | Iter:21 | Skip:6150 | Status:200 | Time:4858ms | Events:250 | Size:1829.13KB  source=console
+INFO[0335] ➡️ [STEADY] VU:7/10 | Iter:24 | Skip:6600 | Status:200 | Time:4817ms | Events:250 | Size:1890.63KB  source=console
+INFO[0335] ➡️ [STEADY] VU:5/10 | Iter:31 | Skip:8150 | Status:200 | Time:5128ms | Events:250 | Size:2000.54KB  source=console
+INFO[0335] ➡️ [STEADY] VU:2/10 | Iter:43 | Skip:10850 | Status:200 | Time:3539ms | Events:250 | Size:2154.89KB  source=console
+INFO[0337] ➡️ [STEADY] VU:3/10 | Iter:36 | Skip:9200 | Status:200 | Time:3371ms | Events:250 | Size:2116.72KB  source=console
+INFO[0338] ➡️ [STEADY] VU:4/10 | Iter:55 | Skip:14050 | Status:200 | Time:4042ms | Events:250 | Size:1589.63KB  source=console
+INFO[0339] ➡️ [STEADY] VU:1/10 | Iter:49 | Skip:12250 | Status:200 | Time:4715ms | Events:250 | Size:1439.77KB  source=console
+INFO[0339] ➡️ [STEADY] VU:2/10 | Iter:44 | Skip:11100 | Status:200 | Time:3750ms | Events:250 | Size:1535.03KB  source=console
+INFO[0339] ➡️ [STEADY] VU:9/10 | Iter:16 | Skip:4800 | Status:200 | Time:4008ms | Events:250 | Size:1891.32KB  source=console
+INFO[0340] ➡️ [STEADY] VU:6/10 | Iter:25 | Skip:6750 | Status:200 | Time:4441ms | Events:250 | Size:1966.34KB  source=console
+INFO[0340] ➡️ [STEADY] VU:8/10 | Iter:33 | Skip:8950 | Status:200 | Time:4663ms | Events:250 | Size:1862.15KB  source=console
+INFO[0341] ➡️ [STEADY] VU:10/10 | Iter:22 | Skip:6400 | Status:200 | Time:4332ms | Events:250 | Size:1720.98KB  source=console
+INFO[0342] ➡️ [STEADY] VU:5/10 | Iter:32 | Skip:8400 | Status:200 | Time:6017ms | Events:250 | Size:1824.44KB  source=console
+INFO[0342] ➡️ [STEADY] VU:7/10 | Iter:25 | Skip:6850 | Status:200 | Time:6321ms | Events:250 | Size:1972.47KB  source=console
+INFO[0343] ➡️ [STEADY] VU:4/10 | Iter:56 | Skip:14300 | Status:200 | Time:3994ms | Events:250 | Size:1522.90KB  source=console
+INFO[0343] ➡️ [STEADY] VU:9/10 | Iter:17 | Skip:5050 | Status:200 | Time:3725ms | Events:250 | Size:1833.58KB  source=console
+INFO[0343] ➡️ [STEADY] VU:1/10 | Iter:50 | Skip:12500 | Status:200 | Time:4268ms | Events:250 | Size:1446.71KB  source=console
+INFO[0344] ➡️ [STEADY] VU:3/10 | Iter:37 | Skip:9450 | Status:200 | Time:5765ms | Events:250 | Size:1738.69KB  source=console
+INFO[0344] ➡️ [STEADY] VU:2/10 | Iter:45 | Skip:11350 | Status:200 | Time:4079ms | Events:250 | Size:1436.33KB  source=console
+INFO[0345] ➡️ [STEADY] VU:10/10 | Iter:23 | Skip:6650 | Status:200 | Time:3498ms | Events:250 | Size:1892.28KB  source=console
+INFO[0345] ➡️ [STEADY] VU:6/10 | Iter:26 | Skip:7000 | Status:200 | Time:3959ms | Events:250 | Size:1864.65KB  source=console
+INFO[0346] ➡️ [STEADY] VU:8/10 | Iter:34 | Skip:9200 | Status:200 | Time:4543ms | Events:250 | Size:2116.72KB  source=console
+INFO[0348] ➡️ [STEADY] VU:7/10 | Iter:26 | Skip:7100 | Status:200 | Time:3624ms | Events:250 | Size:1712.20KB  source=console
+INFO[0348] ➡️ [STEADY] VU:5/10 | Iter:33 | Skip:8650 | Status:200 | Time:4962ms | Events:250 | Size:2105.56KB  source=console
+INFO[0349] ➡️ [STEADY] VU:3/10 | Iter:38 | Skip:9700 | Status:200 | Time:3893ms | Events:250 | Size:1594.64KB  source=console
+INFO[0349] ➡️ [STEADY] VU:4/10 | Iter:57 | Skip:14550 | Status:200 | Time:4294ms | Events:250 | Size:1541.21KB  source=console
+INFO[0350] ➡️ [STEADY] VU:1/10 | Iter:51 | Skip:12750 | Status:200 | Time:4394ms | Events:250 | Size:1520.92KB  source=console
+INFO[0350] ➡️ [STEADY] VU:9/10 | Iter:18 | Skip:5300 | Status:200 | Time:4331ms | Events:250 | Size:1721.29KB  source=console
+INFO[0350] ➡️ [STEADY] VU:10/10 | Iter:24 | Skip:6900 | Status:200 | Time:5122ms | Events:250 | Size:1985.63KB  source=console
+INFO[0351] ➡️ [STEADY] VU:2/10 | Iter:46 | Skip:11600 | Status:200 | Time:5807ms | Events:250 | Size:1508.52KB  source=console
+INFO[0351] ➡️ [STEADY] VU:6/10 | Iter:27 | Skip:7250 | Status:200 | Time:4661ms | Events:250 | Size:1851.27KB  source=console
+INFO[0353] ➡️ [STEADY] VU:5/10 | Iter:34 | Skip:8900 | Status:200 | Time:3712ms | Events:250 | Size:1888.06KB  source=console
+INFO[0354] ➡️ [STEADY] VU:7/10 | Iter:27 | Skip:7350 | Status:200 | Time:6199ms | Events:250 | Size:1954.76KB  source=console
+INFO[0354] ➡️ [STEADY] VU:8/10 | Iter:35 | Skip:9450 | Status:200 | Time:6185ms | Events:250 | Size:1738.69KB  source=console
+INFO[0354] ➡️ [STEADY] VU:10/10 | Iter:25 | Skip:7150 | Status:200 | Time:3750ms | Events:250 | Size:1712.17KB  source=console
+INFO[0355] ➡️ [STEADY] VU:3/10 | Iter:39 | Skip:9950 | Status:200 | Time:4507ms | Events:250 | Size:1957.68KB  source=console
+INFO[0355] ➡️ [STEADY] VU:4/10 | Iter:58 | Skip:14800 | Status:200 | Time:5053ms | Events:250 | Size:1495.71KB  source=console
+INFO[0355] ➡️ [STEADY] VU:1/10 | Iter:52 | Skip:13000 | Status:200 | Time:4573ms | Events:250 | Size:1454.89KB  source=console
+INFO[0357] ➡️ [STEADY] VU:9/10 | Iter:19 | Skip:5550 | Status:200 | Time:5479ms | Events:250 | Size:1554.22KB  source=console
+INFO[0357] ➡️ [STEADY] VU:8/10 | Iter:36 | Skip:9700 | Status:200 | Time:2562ms | Events:250 | Size:1594.64KB  source=console
+INFO[0358] ➡️ [STEADY] VU:6/10 | Iter:28 | Skip:7500 | Status:200 | Time:5780ms | Events:250 | Size:1911.58KB  source=console
+INFO[0359] ➡️ [STEADY] VU:2/10 | Iter:47 | Skip:11850 | Status:200 | Time:5803ms | Events:250 | Size:1504.15KB  source=console
+INFO[0359] ➡️ [STEADY] VU:7/10 | Iter:28 | Skip:7600 | Status:200 | Time:4530ms | Events:250 | Size:2034.77KB  source=console
+INFO[0360] ➡️ [STEADY] VU:4/10 | Iter:59 | Skip:15050 | Status:200 | Time:4499ms | Events:250 | Size:1456.07KB  source=console
+INFO[0361] ➡️ [STEADY] VU:9/10 | Iter:20 | Skip:5800 | Status:200 | Time:2597ms | Events:250 | Size:1689.63KB  source=console
+INFO[0362] ➡️ [STEADY] VU:1/10 | Iter:53 | Skip:13250 | Status:200 | Time:4376ms | Events:250 | Size:1523.91KB  source=console
+INFO[0362] ➡️ [STEADY] VU:8/10 | Iter:37 | Skip:9950 | Status:200 | Time:4224ms | Events:250 | Size:1957.68KB  source=console
+INFO[0362] ➡️ [STEADY] VU:6/10 | Iter:29 | Skip:7750 | Status:200 | Time:2439ms | Events:250 | Size:2097.35KB  source=console
+INFO[0363] ➡️ [STEADY] VU:3/10 | Iter:40 | Skip:10200 | Status:200 | Time:7125ms | Events:250 | Size:2094.26KB  source=console
+INFO[0363] ➡️ [STEADY] VU:5/10 | Iter:35 | Skip:9150 | Status:200 | Time:7264ms | Events:250 | Size:2100.89KB  source=console
+INFO[0363] ➡️ [STEADY] VU:10/10 | Iter:26 | Skip:7400 | Status:200 | Time:6837ms | Events:250 | Size:1961.23KB  source=console
+INFO[0383] ➡️ [STEADY] VU:2/10 | Iter:48 | Skip:12100 | Status:200 | Time:4211ms | Events:250 | Size:1458.43KB  source=console
+INFO[0383] ➡️ [STEADY] VU:6/10 | Iter:30 | Skip:8000 | Status:200 | Time:4482ms | Events:250 | Size:1912.21KB  source=console
+INFO[0384] ➡️ [STEADY] VU:7/10 | Iter:29 | Skip:7850 | Status:200 | Time:4852ms | Events:250 | Size:2008.53KB  source=console
+INFO[0384] ➡️ [STEADY] VU:9/10 | Iter:21 | Skip:6050 | Status:200 | Time:4442ms | Events:250 | Size:1800.83KB  source=console
+INFO[0384] ➡️ [STEADY] VU:4/10 | Iter:60 | Skip:15300 | Status:200 | Time:3855ms | Events:250 | Size:1486.28KB  source=console
+INFO[0385] ➡️ [STEADY] VU:3/10 | Iter:41 | Skip:10450 | Status:200 | Time:5388ms | Events:250 | Size:1883.62KB  source=console
+INFO[0385] ➡️ [STEADY] VU:8/10 | Iter:38 | Skip:10200 | Status:200 | Time:4899ms | Events:250 | Size:2094.26KB  source=console
+INFO[0385] ➡️ [STEADY] VU:1/10 | Iter:54 | Skip:13500 | Status:200 | Time:5214ms | Events:250 | Size:1517.14KB  source=console
+INFO[0386] ➡️ [STEADY] VU:10/10 | Iter:27 | Skip:7650 | Status:200 | Time:7162ms | Events:250 | Size:2078.77KB  source=console
+INFO[0386] ➡️ [STEADY] VU:4/10 | Iter:61 | Skip:15550 | Status:200 | Time:2610ms | Events:250 | Size:1452.06KB  source=console
+INFO[0387] ➡️ [STEADY] VU:2/10 | Iter:49 | Skip:12350 | Status:200 | Time:3633ms | Events:250 | Size:1440.43KB  source=console
+INFO[0387] ➡️ [STEADY] VU:5/10 | Iter:36 | Skip:9400 | Status:200 | Time:6653ms | Events:250 | Size:1864.99KB  source=console
+INFO[0389] ➡️ [STEADY] VU:7/10 | Iter:30 | Skip:8100 | Status:200 | Time:4864ms | Events:250 | Size:1866.91KB  source=console
+INFO[0389] ➡️ [STEADY] VU:6/10 | Iter:31 | Skip:8250 | Status:200 | Time:4294ms | Events:250 | Size:1746.60KB  source=console
+INFO[0389] ➡️ [STEADY] VU:10/10 | Iter:28 | Skip:7900 | Status:200 | Time:2380ms | Events:250 | Size:1843.63KB  source=console
+INFO[0390] ➡️ [STEADY] VU:8/10 | Iter:39 | Skip:10450 | Status:200 | Time:4417ms | Events:250 | Size:1883.62KB  source=console
+INFO[0390] ➡️ [STEADY] VU:9/10 | Iter:22 | Skip:6300 | Status:200 | Time:5005ms | Events:250 | Size:1573.64KB  source=console
+INFO[0390] ➡️ [STEADY] VU:3/10 | Iter:42 | Skip:10700 | Status:200 | Time:5264ms | Events:250 | Size:1841.71KB  source=console
+INFO[0391] ➡️ [STEADY] VU:4/10 | Iter:62 | Skip:15800 | Status:200 | Time:4169ms | Events:250 | Size:1614.91KB  source=console
+INFO[0392] ➡️ [STEADY] VU:1/10 | Iter:55 | Skip:13750 | Status:200 | Time:4890ms | Events:250 | Size:1465.20KB  source=console
+INFO[0392] ➡️ [STEADY] VU:7/10 | Iter:31 | Skip:8350 | Status:200 | Time:2480ms | Events:250 | Size:1793.59KB  source=console
+INFO[0392] ➡️ [STEADY] VU:2/10 | Iter:50 | Skip:12600 | Status:200 | Time:4365ms | Events:250 | Size:1501.36KB  source=console
+INFO[0393] ➡️ [STEADY] VU:5/10 | Iter:37 | Skip:9650 | Status:200 | Time:5386ms | Events:250 | Size:1564.36KB  source=console
+INFO[0393] ➡️ [STEADY] VU:10/10 | Iter:29 | Skip:8150 | Status:200 | Time:3278ms | Events:250 | Size:2000.54KB  source=console
+INFO[0394] ➡️ [STEADY] VU:6/10 | Iter:32 | Skip:8500 | Status:200 | Time:3200ms | Events:250 | Size:2177.41KB  source=console
+INFO[0395] ➡️ [STEADY] VU:8/10 | Iter:40 | Skip:10700 | Status:200 | Time:3400ms | Events:250 | Size:1841.71KB  source=console
+INFO[0395] ➡️ [STEADY] VU:4/10 | Iter:63 | Skip:16050 | Status:200 | Time:3298ms | Events:250 | Size:1826.08KB  source=console
+INFO[0397] ➡️ [STEADY] VU:9/10 | Iter:23 | Skip:6550 | Status:200 | Time:4598ms | Events:250 | Size:1991.04KB  source=console
+INFO[0397] ➡️ [STEADY] VU:3/10 | Iter:43 | Skip:10950 | Status:200 | Time:5248ms | Events:250 | Size:1969.74KB  source=console
+INFO[0397] ➡️ [STEADY] VU:7/10 | Iter:32 | Skip:8600 | Status:200 | Time:5128ms | Events:250 | Size:2108.14KB  source=console
+INFO[0398] ➡️ [STEADY] VU:2/10 | Iter:51 | Skip:12850 | Status:200 | Time:4605ms | Events:250 | Size:1495.47KB  source=console
+INFO[0398] ➡️ [STEADY] VU:4/10 | Iter:64 | Skip:16300 | Status:200 | Time:2556ms | Events:250 | Size:2265.22KB  source=console
+INFO[0398] ➡️ [STEADY] VU:1/10 | Iter:56 | Skip:14000 | Status:200 | Time:4720ms | Events:250 | Size:1562.95KB  source=console
+INFO[0399] ➡️ [STEADY] VU:10/10 | Iter:30 | Skip:8400 | Status:200 | Time:3735ms | Events:250 | Size:1824.44KB  source=console
+INFO[0399] ➡️ [STEADY] VU:5/10 | Iter:38 | Skip:9900 | Status:200 | Time:3997ms | Events:250 | Size:1774.76KB  source=console
+INFO[0400] ➡️ [STEADY] VU:6/10 | Iter:33 | Skip:8750 | Status:200 | Time:4438ms | Events:250 | Size:2063.01KB  source=console
+INFO[0400] ➡️ [STEADY] VU:9/10 | Iter:24 | Skip:6800 | Status:200 | Time:2765ms | Events:250 | Size:1934.44KB  source=console
+INFO[0401] ➡️ [STEADY] VU:8/10 | Iter:41 | Skip:10950 | Status:200 | Time:4404ms | Events:250 | Size:1969.74KB  source=console
+INFO[0402] ➡️ [STEADY] VU:3/10 | Iter:44 | Skip:11200 | Status:200 | Time:3649ms | Events:250 | Size:1468.18KB  source=console
+INFO[0402] ➡️ [STEADY] VU:7/10 | Iter:33 | Skip:8850 | Status:200 | Time:4277ms | Events:250 | Size:2062.01KB  source=console
+INFO[0402] ➡️ [STEADY] VU:2/10 | Iter:52 | Skip:13100 | Status:200 | Time:2493ms | Events:250 | Size:1483.79KB  source=console
+INFO[0403] ➡️ [STEADY] VU:4/10 | Iter:65 | Skip:16550 | Status:200 | Time:4498ms | Events:250 | Size:1657.29KB  source=console
+INFO[0404] ➡️ [STEADY] VU:10/10 | Iter:31 | Skip:8650 | Status:200 | Time:4260ms | Events:250 | Size:2105.56KB  source=console
+INFO[0404] ➡️ [STEADY] VU:1/10 | Iter:57 | Skip:14250 | Status:200 | Time:3761ms | Events:250 | Size:1531.95KB  source=console
+INFO[0405] ➡️ [STEADY] VU:5/10 | Iter:39 | Skip:10150 | Status:200 | Time:4622ms | Events:250 | Size:2146.62KB  source=console
+INFO[0405] ➡️ [STEADY] VU:6/10 | Iter:34 | Skip:9000 | Status:200 | Time:3764ms | Events:250 | Size:1732.27KB  source=console
+INFO[0405] ➡️ [STEADY] VU:3/10 | Iter:45 | Skip:11450 | Status:200 | Time:2516ms | Events:250 | Size:1450.06KB  source=console
+INFO[0405] ➡️ [STEADY] VU:9/10 | Iter:25 | Skip:7050 | Status:200 | Time:4300ms | Events:250 | Size:1812.14KB  source=console
+INFO[0406] ➡️ [STEADY] VU:2/10 | Iter:53 | Skip:13350 | Status:200 | Time:2992ms | Events:250 | Size:1490.21KB  source=console
+INFO[0406] ➡️ [STEADY] VU:7/10 | Iter:34 | Skip:9100 | Status:200 | Time:3022ms | Events:250 | Size:1838.17KB  source=console
+INFO[0407] ➡️ [STEADY] VU:8/10 | Iter:42 | Skip:11200 | Status:200 | Time:3960ms | Events:250 | Size:1468.18KB  source=console
+INFO[0408] ➡️ [STEADY] VU:4/10 | Iter:66 | Skip:16800 | Status:200 | Time:2719ms | Events:250 | Size:1928.86KB  source=console
+INFO[0409] ➡️ [STEADY] VU:3/10 | Iter:46 | Skip:11700 | Status:200 | Time:4112ms | Events:250 | Size:1486.47KB  source=console
+INFO[0410] ➡️ [STEADY] VU:1/10 | Iter:58 | Skip:14500 | Status:200 | Time:4402ms | Events:250 | Size:1580.94KB  source=console
+INFO[0410] ➡️ [STEADY] VU:10/10 | Iter:32 | Skip:8900 | Status:200 | Time:4496ms | Events:250 | Size:1888.06KB  source=console
+INFO[0410] ➡️ [STEADY] VU:7/10 | Iter:35 | Skip:9350 | Status:200 | Time:2604ms | Events:250 | Size:1986.61KB  source=console
+INFO[0410] ➡️ [STEADY] VU:2/10 | Iter:54 | Skip:13600 | Status:200 | Time:4001ms | Events:250 | Size:1511.20KB  source=console
+INFO[0411] ➡️ [STEADY] VU:6/10 | Iter:35 | Skip:9250 | Status:200 | Time:4072ms | Events:250 | Size:2057.55KB  source=console
+INFO[0411] ➡️ [STEADY] VU:8/10 | Iter:43 | Skip:11450 | Status:200 | Time:3843ms | Events:250 | Size:1450.06KB  source=console
+INFO[0411] ➡️ [STEADY] VU:5/10 | Iter:40 | Skip:10400 | Status:200 | Time:4656ms | Events:250 | Size:1890.82KB  source=console
+INFO[0411] ➡️ [STEADY] VU:9/10 | Iter:26 | Skip:7300 | Status:200 | Time:4373ms | Events:250 | Size:1941.73KB  source=console
+INFO[0413] ➡️ [STEADY] VU:4/10 | Iter:67 | Skip:17050 | Status:200 | Time:3955ms | Events:250 | Size:1877.35KB  source=console
+INFO[0414] ➡️ [STEADY] VU:3/10 | Iter:47 | Skip:11950 | Status:200 | Time:3254ms | Events:250 | Size:1499.11KB  source=console
+INFO[0415] ➡️ [STEADY] VU:10/10 | Iter:33 | Skip:9150 | Status:200 | Time:3819ms | Events:250 | Size:2100.89KB  source=console
+INFO[0415] ➡️ [STEADY] VU:1/10 | Iter:59 | Skip:14750 | Status:200 | Time:2995ms | Events:250 | Size:1479.86KB  source=console
+INFO[0416] ➡️ [STEADY] VU:6/10 | Iter:36 | Skip:9500 | Status:200 | Time:3914ms | Events:250 | Size:1704.97KB  source=console
+INFO[0416] ➡️ [STEADY] VU:8/10 | Iter:44 | Skip:11700 | Status:200 | Time:4250ms | Events:250 | Size:1486.47KB  source=console
+INFO[0417] ➡️ [STEADY] VU:2/10 | Iter:55 | Skip:13850 | Status:200 | Time:4966ms | Events:250 | Size:1484.95KB  source=console
+INFO[0417] ➡️ [STEADY] VU:9/10 | Iter:27 | Skip:7550 | Status:200 | Time:4706ms | Events:250 | Size:1957.30KB  source=console
+INFO[0417] ➡️ [STEADY] VU:7/10 | Iter:36 | Skip:9600 | Status:200 | Time:5603ms | Events:250 | Size:1732.36KB  source=console
+INFO[0418] ➡️ [STEADY] VU:10/10 | Iter:34 | Skip:9400 | Status:200 | Time:2675ms | Events:250 | Size:1864.99KB  source=console
+INFO[0418] ➡️ [STEADY] VU:4/10 | Iter:68 | Skip:17300 | Status:200 | Time:4451ms | Events:250 | Size:1830.01KB  source=console
+INFO[0419] ➡️ [STEADY] VU:5/10 | Iter:41 | Skip:10650 | Status:200 | Time:6157ms | Events:250 | Size:1823.75KB  source=console
+INFO[0419] ➡️ [STEADY] VU:3/10 | Iter:48 | Skip:12200 | Status:200 | Time:4557ms | Events:250 | Size:1500.15KB  source=console
+INFO[0419] ➡️ [STEADY] VU:1/10 | Iter:60 | Skip:15000 | Status:200 | Time:2893ms | Events:250 | Size:1455.41KB  source=console
+INFO[0421] ➡️ [STEADY] VU:8/10 | Iter:45 | Skip:11950 | Status:200 | Time:2918ms | Events:250 | Size:1499.11KB  source=console
+INFO[0421] ➡️ [STEADY] VU:6/10 | Iter:37 | Skip:9750 | Status:200 | Time:3354ms | Events:250 | Size:1645.63KB  source=console
+INFO[0422] ➡️ [STEADY] VU:7/10 | Iter:37 | Skip:9850 | Status:200 | Time:2409ms | Events:250 | Size:1548.05KB  source=console
+INFO[0421] ➡️ [STEADY] VU:2/10 | Iter:56 | Skip:14100 | Status:200 | Time:2841ms | Events:250 | Size:1594.69KB  source=console
+INFO[0421] ➡️ [STEADY] VU:9/10 | Iter:28 | Skip:7800 | Status:200 | Time:3172ms | Events:250 | Size:2073.54KB  source=console
+INFO[0442] ⬇️ [RAMPDOWN] VU:1/10 | Iter:61 | Skip:15250 | Status:200 | Time:3030ms | Events:250 | Size:1484.26KB  source=console
+INFO[0442] ⬇️ [RAMPDOWN] VU:4/10 | Iter:69 | Skip:17550 | Status:200 | Time:3594ms | Events:250 | Size:1841.63KB  source=console
+INFO[0443] ⬇️ [RAMPDOWN] VU:8/10 | Iter:46 | Skip:12200 | Status:200 | Time:3706ms | Events:250 | Size:1500.15KB  source=console
+INFO[0444] ⬇️ [RAMPDOWN] VU:2/10 | Iter:57 | Skip:14350 | Status:200 | Time:3457ms | Events:250 | Size:1528.66KB  source=console
+INFO[0444] ⬇️ [RAMPDOWN] VU:5/10 | Iter:42 | Skip:10900 | Status:200 | Time:4291ms | Events:250 | Size:2063.84KB  source=console
+INFO[0444] ⬇️ [RAMPDOWN] VU:3/10 | Iter:49 | Skip:12450 | Status:200 | Time:3579ms | Events:250 | Size:1427.15KB  source=console
+INFO[0445] ⬇️ [RAMPDOWN] VU:9/10 | Iter:29 | Skip:8050 | Status:200 | Time:4780ms | Events:250 | Size:1815.73KB  source=console
+INFO[0445] ⬇️ [RAMPDOWN] VU:6/10 | Iter:38 | Skip:10000 | Status:200 | Time:5744ms | Events:250 | Size:2034.97KB  source=console
+INFO[0445] ⬇️ [RAMPDOWN] VU:10/10 | Iter:35 | Skip:9650 | Status:200 | Time:5956ms | Events:250 | Size:1564.36KB  source=console
+INFO[0446] ⬇️ [RAMPDOWN] VU:7/10 | Iter:38 | Skip:10100 | Status:200 | Time:6187ms | Events:250 | Size:2172.44KB  source=console
+INFO[0446] ⬇️ [RAMPDOWN] VU:1/10 | Iter:62 | Skip:15500 | Status:200 | Time:2392ms | Events:250 | Size:1449.92KB  source=console
+INFO[0448] ⬇️ [RAMPDOWN] VU:4/10 | Iter:70 | Skip:17800 | Status:200 | Time:4071ms | Events:250 | Size:1831.95KB  source=console
+INFO[0449] ⬇️ [RAMPDOWN] VU:8/10 | Iter:47 | Skip:12450 | Status:200 | Time:3192ms | Events:250 | Size:1427.15KB  source=console
+INFO[0449] ⬇️ [RAMPDOWN] VU:2/10 | Iter:58 | Skip:14600 | Status:200 | Time:4121ms | Events:250 | Size:1538.94KB  source=console
+INFO[0450] ⬇️ [RAMPDOWN] VU:6/10 | Iter:39 | Skip:10250 | Status:200 | Time:2562ms | Events:250 | Size:2016.63KB  source=console
+INFO[0450] ⬇️ [RAMPDOWN] VU:7/10 | Iter:39 | Skip:10350 | Status:200 | Time:3664ms | Events:250 | Size:1863.92KB  source=console
+INFO[0451] ⬇️ [RAMPDOWN] VU:5/10 | Iter:43 | Skip:11150 | Status:200 | Time:5843ms | Events:250 | Size:1494.60KB  source=console
+INFO[0452] ⬇️ [RAMPDOWN] VU:10/10 | Iter:36 | Skip:9900 | Status:200 | Time:5377ms | Events:250 | Size:1774.76KB  source=console
+INFO[0452] ⬇️ [RAMPDOWN] VU:3/10 | Iter:50 | Skip:12700 | Status:200 | Time:6325ms | Events:250 | Size:1495.79KB  source=console
+INFO[0452] ⬇️ [RAMPDOWN] VU:2/10 | Iter:59 | Skip:14850 | Status:200 | Time:2907ms | Events:250 | Size:1479.15KB  source=console
+INFO[0452] ⬇️ [RAMPDOWN] VU:1/10 | Iter:63 | Skip:15750 | Status:200 | Time:4092ms | Events:250 | Size:1535.23KB  source=console
+INFO[0454] ⬇️ [RAMPDOWN] VU:8/10 | Iter:48 | Skip:12700 | Status:200 | Time:4603ms | Events:250 | Size:1495.79KB  source=console
+INFO[0454] ⬇️ [RAMPDOWN] VU:4/10 | Iter:71 | Skip:18050 | Status:200 | Time:4784ms | Events:250 | Size:1903.83KB  source=console
+INFO[0454] ⬇️ [RAMPDOWN] VU:6/10 | Iter:40 | Skip:10500 | Status:200 | Time:4139ms | Events:250 | Size:1906.15KB  source=console
+INFO[0456] ⬇️ [RAMPDOWN] VU:3/10 | Iter:51 | Skip:12950 | Status:200 | Time:2949ms | Events:250 | Size:1466.00KB  source=console
+INFO[0457] ⬇️ [RAMPDOWN] VU:5/10 | Iter:44 | Skip:11400 | Status:200 | Time:5279ms | Events:250 | Size:1449.19KB  source=console
+INFO[0457] ⬇️ [RAMPDOWN] VU:2/10 | Iter:60 | Skip:15100 | Status:200 | Time:4342ms | Events:250 | Size:1457.66KB  source=console
+INFO[0457] ⬇️ [RAMPDOWN] VU:8/10 | Iter:49 | Skip:12950 | Status:200 | Time:2844ms | Events:250 | Size:1466.00KB  source=console
+INFO[0458] ⬇️ [RAMPDOWN] VU:1/10 | Iter:64 | Skip:16000 | Status:200 | Time:3098ms | Events:250 | Size:1793.71KB  source=console
+INFO[0458] ⬇️ [RAMPDOWN] VU:4/10 | Iter:72 | Skip:18300 | Status:200 | Time:3616ms | Events:250 | Size:2315.10KB  source=console
+INFO[0459] ⬇️ [RAMPDOWN] VU:10/10 | Iter:37 | Skip:10150 | Status:200 | Time:6385ms | Events:250 | Size:2146.62KB  source=console
+INFO[0459] ⬇️ [RAMPDOWN] VU:3/10 | Iter:52 | Skip:13200 | Status:200 | Time:2593ms | Events:250 | Size:1504.55KB  source=console
+INFO[0459] ⬇️ [RAMPDOWN] VU:7/10 | Iter:40 | Skip:10600 | Status:200 | Time:6526ms | Events:250 | Size:1834.11KB  source=console
+INFO[0461] ⬇️ [RAMPDOWN] VU:5/10 | Iter:45 | Skip:11650 | Status:200 | Time:2356ms | Events:250 | Size:1471.68KB  source=console
+INFO[0461] ⬇️ [RAMPDOWN] VU:1/10 | Iter:65 | Skip:16250 | Status:200 | Time:2620ms | Events:250 | Size:2221.42KB  source=console
+INFO[0462] ⬇️ [RAMPDOWN] VU:6/10 | Iter:41 | Skip:10750 | Status:200 | Time:5109ms | Events:250 | Size:2035.43KB  source=console
+INFO[0463] ⬇️ [RAMPDOWN] VU:8/10 | Iter:50 | Skip:13200 | Status:200 | Time:3323ms | Events:250 | Size:1504.55KB  source=console
+INFO[0464] ⬇️ [RAMPDOWN] VU:4/10 | Iter:73 | Skip:18550 | Status:200 | Time:3362ms | Events:250 | Size:1964.46KB  source=console
+INFO[0464] ⬇️ [RAMPDOWN] VU:3/10 | Iter:53 | Skip:13450 | Status:200 | Time:2577ms | Events:250 | Size:1504.05KB  source=console
+INFO[0464] ⬇️ [RAMPDOWN] VU:2/10 | Iter:61 | Skip:15350 | Status:200 | Time:4796ms | Events:250 | Size:1487.70KB  source=console
+INFO[0465] ⬇️ [RAMPDOWN] VU:7/10 | Iter:41 | Skip:10850 | Status:200 | Time:4920ms | Events:250 | Size:2154.89KB  source=console
+INFO[0466] ⬇️ [RAMPDOWN] VU:8/10 | Iter:51 | Skip:13450 | Status:200 | Time:2237ms | Events:250 | Size:1504.05KB  source=console
+INFO[0466] ⬇️ [RAMPDOWN] VU:5/10 | Iter:46 | Skip:11900 | Status:200 | Time:4622ms | Events:250 | Size:1514.95KB  source=console
+INFO[0466] ⬇️ [RAMPDOWN] VU:1/10 | Iter:66 | Skip:16500 | Status:200 | Time:4710ms | Events:250 | Size:1869.88KB  source=console
+INFO[0467] ⬇️ [RAMPDOWN] VU:6/10 | Iter:42 | Skip:11000 | Status:200 | Time:3145ms | Events:250 | Size:1669.74KB  source=console
+INFO[0468] ⬇️ [RAMPDOWN] VU:4/10 | Iter:74 | Skip:18800 | Status:200 | Time:3966ms | Events:250 | Size:2013.39KB  source=console
+INFO[0470] ⬇️ [RAMPDOWN] VU:3/10 | Iter:54 | Skip:13700 | Status:200 | Time:4286ms | Events:250 | Size:1503.11KB  source=console
+INFO[0471] ⬇️ [RAMPDOWN] VU:2/10 | Iter:62 | Skip:15600 | Status:200 | Time:4889ms | Events:250 | Size:1455.25KB  source=console
+INFO[0471] ⬇️ [RAMPDOWN] VU:5/10 | Iter:47 | Skip:12150 | Status:200 | Time:2410ms | Events:250 | Size:1472.11KB  source=console
+INFO[0471] ⬇️ [RAMPDOWN] VU:1/10 | Iter:67 | Skip:16750 | Status:200 | Time:4249ms | Events:250 | Size:1761.96KB  source=console
+INFO[0472] ⬇️ [RAMPDOWN] VU:7/10 | Iter:42 | Skip:11100 | Status:200 | Time:4162ms | Events:250 | Size:1535.03KB  source=console
+INFO[0472] ⬇️ [RAMPDOWN] VU:8/10 | Iter:52 | Skip:13700 | Status:200 | Time:4367ms | Events:250 | Size:1503.11KB  source=console
+INFO[0474] ⬇️ [RAMPDOWN] VU:4/10 | Iter:75 | Skip:19050 | Status:200 | Time:5209ms | Events:250 | Size:1941.94KB  source=console
+INFO[0474] ⬇️ [RAMPDOWN] VU:6/10 | Iter:43 | Skip:11250 | Status:200 | Time:4939ms | Events:250 | Size:1455.32KB  source=console
+INFO[0474] ⬇️ [RAMPDOWN] VU:3/10 | Iter:55 | Skip:13950 | Status:200 | Time:3879ms | Events:250 | Size:1525.66KB  source=console
+INFO[0475] ⬇️ [RAMPDOWN] VU:1/10 | Iter:68 | Skip:17000 | Status:200 | Time:3480ms | Events:250 | Size:1897.33KB  source=console
+INFO[0475] ⬇️ [RAMPDOWN] VU:8/10 | Iter:53 | Skip:13950 | Status:200 | Time:2557ms | Events:250 | Size:1525.66KB  source=console
+INFO[0476] ⬇️ [RAMPDOWN] VU:2/10 | Iter:63 | Skip:15850 | Status:200 | Time:2719ms | Events:250 | Size:1638.60KB  source=console
+INFO[0476] ⬇️ [RAMPDOWN] VU:7/10 | Iter:43 | Skip:11350 | Status:200 | Time:3405ms | Events:250 | Size:1436.33KB  source=console
+INFO[0476] ⬇️ [RAMPDOWN] VU:5/10 | Iter:48 | Skip:12400 | Status:200 | Time:4237ms | Events:250 | Size:1463.36KB  source=console
+INFO[0478] ⬇️ [RAMPDOWN] VU:4/10 | Iter:76 | Skip:19300 | Status:200 | Time:2887ms | Events:250 | Size:1441.03KB  source=console
+INFO[0478] ⬇️ [RAMPDOWN] VU:3/10 | Iter:56 | Skip:14200 | Status:200 | Time:3277ms | Events:250 | Size:1544.74KB  source=console
+INFO[0480] ⬇️ [RAMPDOWN] VU:5/10 | Iter:49 | Skip:12650 | Status:200 | Time:3168ms | Events:250 | Size:1457.75KB  source=console
+INFO[0481] ⬇️ [RAMPDOWN] VU:7/10 | Iter:44 | Skip:11600 | Status:200 | Time:4795ms | Events:250 | Size:1508.52KB  source=console
+INFO[0481] ⬇️ [RAMPDOWN] VU:6/10 | Iter:44 | Skip:11500 | Status:200 | Time:5487ms | Events:250 | Size:1478.61KB  source=console
+INFO[0481] ⬇️ [RAMPDOWN] VU:8/10 | Iter:54 | Skip:14200 | Status:200 | Time:4555ms | Events:250 | Size:1544.74KB  source=console
+INFO[0482] ⬇️ [RAMPDOWN] VU:3/10 | Iter:57 | Skip:14450 | Status:200 | Time:2374ms | Events:250 | Size:1551.93KB  source=console
+INFO[0482] ⬇️ [RAMPDOWN] VU:4/10 | Iter:77 | Skip:19550 | Status:200 | Time:2503ms | Events:250 | Size:1815.21KB  source=console
+INFO[0482] ⬇️ [RAMPDOWN] VU:1/10 | Iter:69 | Skip:17250 | Status:200 | Time:6028ms | Events:250 | Size:1847.69KB  source=console
+INFO[0482] ⬇️ [RAMPDOWN] VU:2/10 | Iter:64 | Skip:16100 | Status:200 | Time:5932ms | Events:250 | Size:2006.13KB  source=console
+INFO[0502] ⬇️ [RAMPDOWN] VU:4/10 | Iter:78 | Skip:19800 | Status:200 | Time:2619ms | Events:250 | Size:2135.20KB  source=console
+INFO[0503] ⬇️ [RAMPDOWN] VU:1/10 | Iter:70 | Skip:17500 | Status:200 | Time:2790ms | Events:250 | Size:1828.14KB  source=console
+INFO[0503] ⬇️ [RAMPDOWN] VU:2/10 | Iter:65 | Skip:16350 | Status:200 | Time:2619ms | Events:250 | Size:2138.13KB  source=console
+INFO[0504] ⬇️ [RAMPDOWN] VU:8/10 | Iter:55 | Skip:14450 | Status:200 | Time:5104ms | Events:250 | Size:1551.93KB  source=console
+INFO[0506] ⬇️ [RAMPDOWN] VU:3/10 | Iter:58 | Skip:14700 | Status:200 | Time:6669ms | Events:250 | Size:1516.30KB  source=console
+INFO[0506] ⬇️ [RAMPDOWN] VU:5/10 | Iter:50 | Skip:12900 | Status:200 | Time:6715ms | Events:250 | Size:1498.46KB  source=console
+INFO[0507] ⬇️ [RAMPDOWN] VU:4/10 | Iter:79 | Skip:20050 | Status:200 | Time:2646ms | Events:250 | Size:2246.33KB  source=console
+INFO[0507] ⬇️ [RAMPDOWN] VU:2/10 | Iter:66 | Skip:16600 | Status:200 | Time:2680ms | Events:250 | Size:1665.83KB  source=console
+INFO[0510] ⬇️ [RAMPDOWN] VU:8/10 | Iter:56 | Skip:14700 | Status:200 | Time:5855ms | Events:250 | Size:1516.30KB  source=console
+INFO[0510] ⬇️ [RAMPDOWN] VU:3/10 | Iter:59 | Skip:14950 | Status:200 | Time:2545ms | Events:250 | Size:1438.59KB  source=console
+INFO[0511] ⬇️ [RAMPDOWN] VU:1/10 | Iter:71 | Skip:17750 | Status:200 | Time:5321ms | Events:250 | Size:1819.18KB  source=console
+INFO[0511] ⬇️ [RAMPDOWN] VU:4/10 | Iter:80 | Skip:20300 | Status:200 | Time:2495ms | Events:250 | Size:2149.80KB  source=console
+INFO[0511] ⬇️ [RAMPDOWN] VU:5/10 | Iter:51 | Skip:13150 | Status:200 | Time:4715ms | Events:250 | Size:1509.87KB  source=console
+INFO[0511] ⬇️ [RAMPDOWN] VU:2/10 | Iter:67 | Skip:16850 | Status:200 | Time:2491ms | Events:250 | Size:1959.88KB  source=console
+INFO[0513] ⬇️ [RAMPDOWN] VU:8/10 | Iter:57 | Skip:14950 | Status:200 | Time:2326ms | Events:250 | Size:1438.59KB  source=console
+INFO[0514] ⬇️ [RAMPDOWN] VU:1/10 | Iter:72 | Skip:18000 | Status:200 | Time:3249ms | Events:250 | Size:1913.60KB  source=console
+INFO[0515] ⬇️ [RAMPDOWN] VU:3/10 | Iter:60 | Skip:15200 | Status:200 | Time:2484ms | Events:250 | Size:1521.98KB  source=console
+INFO[0515] ⬇️ [RAMPDOWN] VU:5/10 | Iter:52 | Skip:13400 | Status:200 | Time:2462ms | Events:250 | Size:1494.57KB  source=console
+INFO[0516] ⬇️ [RAMPDOWN] VU:8/10 | Iter:58 | Skip:15200 | Status:200 | Time:2546ms | Events:250 | Size:1521.98KB  source=console
+INFO[0518] ⬇️ [RAMPDOWN] VU:1/10 | Iter:73 | Skip:18250 | Status:200 | Time:2591ms | Events:250 | Size:2276.19KB  source=console
+INFO[0518] ⬇️ [RAMPDOWN] VU:4/10 | Iter:81 | Skip:20550 | Status:200 | Time:5175ms | Events:250 | Size:2420.23KB  source=console
+INFO[0518] ⬇️ [RAMPDOWN] VU:3/10 | Iter:61 | Skip:15450 | Status:200 | Time:2686ms | Events:250 | Size:1439.13KB  source=console
+INFO[0518] ⬇️ [RAMPDOWN] VU:2/10 | Iter:68 | Skip:17100 | Status:200 | Time:4565ms | Events:250 | Size:1816.95KB  source=console
+INFO[0519] ⬇️ [RAMPDOWN] VU:8/10 | Iter:59 | Skip:15450 | Status:200 | Time:2294ms | Events:250 | Size:1439.13KB  source=console
+INFO[0521] ⬇️ [RAMPDOWN] VU:3/10 | Iter:62 | Skip:15700 | Status:200 | Time:2379ms | Events:250 | Size:1466.03KB  source=console
+INFO[0522] ⬇️ [RAMPDOWN] VU:1/10 | Iter:74 | Skip:18500 | Status:200 | Time:2651ms | Events:250 | Size:2024.48KB  source=console
+INFO[0523] ⬇️ [RAMPDOWN] VU:2/10 | Iter:69 | Skip:17350 | Status:200 | Time:3945ms | Events:250 | Size:1843.96KB  source=console
+INFO[0524] ⬇️ [RAMPDOWN] VU:8/10 | Iter:60 | Skip:15700 | Status:200 | Time:2454ms | Events:250 | Size:1466.03KB  source=console
+INFO[0525] ⬇️ [RAMPDOWN] VU:4/10 | Iter:82 | Skip:20800 | Status:200 | Time:4228ms | Events:250 | Size:2415.61KB  source=console
+INFO[0526] ⬇️ [RAMPDOWN] VU:3/10 | Iter:63 | Skip:15950 | Status:200 | Time:2572ms | Events:250 | Size:1851.02KB  source=console
+INFO[0528] ⬇️ [RAMPDOWN] VU:8/10 | Iter:61 | Skip:15950 | Status:200 | Time:2392ms | Events:250 | Size:1851.02KB  source=console
+INFO[0528] ⬇️ [RAMPDOWN] VU:2/10 | Iter:70 | Skip:17600 | Status:200 | Time:4565ms | Events:250 | Size:1878.07KB  source=console
+INFO[0528] ⬇️ [RAMPDOWN] VU:4/10 | Iter:83 | Skip:21050 | Status:200 | Time:2507ms | Events:250 | Size:1907.58KB  source=console
+INFO[0529] ⬇️ [RAMPDOWN] VU:1/10 | Iter:75 | Skip:18750 | Status:200 | Time:4869ms | Events:250 | Size:2045.31KB  source=console
+INFO[0530] ⬇️ [RAMPDOWN] VU:3/10 | Iter:64 | Skip:16200 | Status:200 | Time:2614ms | Events:250 | Size:2081.10KB  source=console
+INFO[0532] ⬇️ [RAMPDOWN] VU:4/10 | Iter:84 | Skip:21300 | Status:200 | Time:2948ms | Events:250 | Size:2051.36KB  source=console
+INFO[0533] ⬇️ [RAMPDOWN] VU:1/10 | Iter:76 | Skip:19000 | Status:200 | Time:2524ms | Events:250 | Size:1869.73KB  source=console
+INFO[0534] ⬇️ [RAMPDOWN] VU:2/10 | Iter:71 | Skip:17850 | Status:200 | Time:4334ms | Events:250 | Size:1809.24KB  source=console
+INFO[0534] ⬇️ [RAMPDOWN] VU:8/10 | Iter:62 | Skip:16200 | Status:200 | Time:4387ms | Events:250 | Size:2081.10KB  source=console
+INFO[0535] ⬇️ [RAMPDOWN] VU:3/10 | Iter:65 | Skip:16450 | Status:200 | Time:2526ms | Events:250 | Size:1984.71KB  source=console
+INFO[0536] ⬇️ [RAMPDOWN] VU:4/10 | Iter:85 | Skip:21550 | Status:200 | Time:2871ms | Events:250 | Size:2504.41KB  source=console
+INFO[0538] ⬇️ [RAMPDOWN] VU:1/10 | Iter:77 | Skip:19250 | Status:200 | Time:2501ms | Events:250 | Size:1649.13KB  source=console
+INFO[0538] ⬇️ [RAMPDOWN] VU:3/10 | Iter:66 | Skip:16700 | Status:200 | Time:2735ms | Events:250 | Size:1728.80KB  source=console
+INFO[0539] ⬇️ [RAMPDOWN] VU:2/10 | Iter:72 | Skip:18100 | Status:200 | Time:2729ms | Events:250 | Size:1923.47KB  source=console
+INFO[0541] ⬇️ [RAMPDOWN] VU:4/10 | Iter:86 | Skip:21800 | Status:200 | Time:2577ms | Events:250 | Size:2102.68KB  source=console
+INFO[0542] ⬇️ [RAMPDOWN] VU:2/10 | Iter:73 | Skip:18350 | Status:200 | Time:2586ms | Events:250 | Size:2332.49KB  source=console
+INFO[0543] ⬇️ [RAMPDOWN] VU:3/10 | Iter:67 | Skip:16950 | Status:200 | Time:4175ms | Events:250 | Size:1864.46KB  source=console
+INFO[0544] ⬇️ [RAMPDOWN] VU:1/10 | Iter:78 | Skip:19500 | Status:200 | Time:4282ms | Events:250 | Size:1583.99KB  source=console
+INFO[0545] ⬇️ [RAMPDOWN] VU:2/10 | Iter:74 | Skip:18600 | Status:200 | Time:2581ms | Events:250 | Size:2105.71KB  source=console
+INFO[0546] ⬇️ [RAMPDOWN] VU:4/10 | Iter:87 | Skip:22050 | Status:200 | Time:2898ms | Events:250 | Size:2248.27KB  source=console
+INFO[0563] ⬇️ [RAMPDOWN] VU:4/10 | Iter:88 | Skip:22300 | Status:200 | Time:2676ms | Events:250 | Size:2000.11KB  source=console
+INFO[0564] ⬇️ [RAMPDOWN] VU:2/10 | Iter:75 | Skip:18850 | Status:200 | Time:4318ms | Events:250 | Size:1835.27KB  source=console
+INFO[0565] ⬇️ [RAMPDOWN] VU:1/10 | Iter:79 | Skip:19750 | Status:200 | Time:4797ms | Events:250 | Size:2138.87KB  source=console
+INFO[0567] ⬇️ [RAMPDOWN] VU:4/10 | Iter:89 | Skip:22550 | Status:200 | Time:3218ms | Events:250 | Size:2023.37KB  source=console
+INFO[0571] ⬇️ [RAMPDOWN] VU:2/10 | Iter:76 | Skip:19100 | Status:200 | Time:4152ms | Events:250 | Size:1939.33KB  source=console
+INFO[0571] ⬇️ [RAMPDOWN] VU:1/10 | Iter:80 | Skip:20000 | Status:200 | Time:4184ms | Events:250 | Size:2240.19KB  source=console
+INFO[0571] ⬇️ [RAMPDOWN] VU:4/10 | Iter:90 | Skip:22800 | Status:200 | Time:2503ms | Events:250 | Size:1947.03KB  source=console
+INFO[0574] ⬇️ [RAMPDOWN] VU:1/10 | Iter:81 | Skip:20250 | Status:200 | Time:2523ms | Events:250 | Size:2179.39KB  source=console
+INFO[0574] ⬇️ [RAMPDOWN] VU:4/10 | Iter:91 | Skip:23050 | Status:200 | Time:2695ms | Events:250 | Size:1771.13KB  source=console
+INFO[0578] ⬇️ [RAMPDOWN] VU:1/10 | Iter:82 | Skip:20500 | Status:200 | Time:2536ms | Events:250 | Size:2337.49KB  source=console
+INFO[0578] ⬇️ [RAMPDOWN] VU:4/10 | Iter:92 | Skip:23300 | Status:200 | Time:2569ms | Events:250 | Size:1770.39KB  source=console
+INFO[0581] ⬇️ [RAMPDOWN] VU:1/10 | Iter:83 | Skip:20750 | Status:200 | Time:2510ms | Events:250 | Size:2436.94KB  source=console
+INFO[0582] ⬇️ [RAMPDOWN] VU:4/10 | Iter:93 | Skip:23550 | Status:200 | Time:2552ms | Events:250 | Size:2413.06KB  source=console
+INFO[0585] ⬇️ [RAMPDOWN] VU:1/10 | Iter:84 | Skip:21000 | Status:200 | Time:2649ms | Events:250 | Size:1946.66KB  source=console
+INFO[0585] ⬇️ [RAMPDOWN] VU:4/10 | Iter:94 | Skip:23800 | Status:200 | Time:2727ms | Events:250 | Size:2262.52KB  source=console
+INFO[0588] ⬇️ [RAMPDOWN] VU:4/10 | Iter:95 | Skip:24050 | Status:200 | Time:2507ms | Events:250 | Size:2467.20KB  source=console
+INFO[0592] ⬇️ [RAMPDOWN] VU:4/10 | Iter:96 | Skip:24300 | Status:200 | Time:2395ms | Events:250 | Size:1823.66KB  source=console
+INFO[0597] ⬇️ [RAMPDOWN] VU:4/10 | Iter:97 | Skip:24550 | Status:200 | Time:2499ms | Events:250 | Size:1909.85KB  source=console
+INFO[0601] ⬇️ [RAMPDOWN] VU:4/10 | Iter:98 | Skip:24800 | Status:200 | Time:2518ms | Events:250 | Size:2112.38KB  source=console
+INFO[0605] ⬇️ [RAMPDOWN] VU:4/10 | Iter:99 | Skip:25050 | Status:200 | Time:2603ms | Events:250 | Size:2161.23KB  source=console
+INFO[0606] 
+============================================================  source=console
+INFO[0606] 📊 РЕЗУЛЬТАТЫ ТЕСТИРОВАНИЯ                     source=console
+INFO[0606] ============================================================  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=6745.53ms
+    ✗ 'p(99)<1500' p(99)=8361.10ms
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    rampdown_response_time
+    ✗ 'p(95)<1000' p(95)=5959.60ms
+
+    rampup_response_time
+    ✗ 'p(95)<1200' p(95)=5943.35ms
+
+    response_time
+    ✗ 'p(95)<1000' p(95)=6747.40ms
+
+    steady_response_time
+    ✗ 'p(95)<1000' p(95)=7475.00ms
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 1822   3.002332/s
+    checks_succeeded...: 66.84% 1218 out of 1822
+    checks_failed......: 33.15% 604 out of 1822
+
+    ✓ login status 200 (VU 1)
+    ✓ login status 200 (VU 2)
+    ✓ login status 200 (VU 3)
+    ✓ login status 200 (VU 4)
+    ✓ login status 200 (VU 5)
+    ✓ login status 200 (VU 6)
+    ✓ login status 200 (VU 7)
+    ✓ login status 200 (VU 8)
+    ✓ login status 200 (VU 9)
+    ✓ login status 200 (VU 10)
+    ✓ ✓ [VU4] статус 200
+    ✗ ✓ [VU4] время < 2с
+      ↳  0% — ✓ 0 / ✗ 100
+    ✓ ✓ [VU4] тело не пустое
+    ✓ ✓ [VU1] статус 200
+    ✗ ✓ [VU1] время < 2с
+      ↳  0% — ✓ 0 / ✗ 85
+    ✓ ✓ [VU1] тело не пустое
+    ✓ ✓ [VU2] статус 200
+    ✗ ✓ [VU2] время < 2с
+      ↳  0% — ✓ 0 / ✗ 77
+    ✓ ✓ [VU2] тело не пустое
+    ✓ ✓ [VU3] статус 200
+    ✗ ✓ [VU3] время < 2с
+      ↳  0% — ✓ 0 / ✗ 68
+    ✓ ✓ [VU3] тело не пустое
+    ✓ ✓ [VU8] статус 200
+    ✗ ✓ [VU8] время < 2с
+      ↳  0% — ✓ 0 / ✗ 63
+    ✓ ✓ [VU8] тело не пустое
+    ✓ ✓ [VU5] статус 200
+    ✗ ✓ [VU5] время < 2с
+      ↳  0% — ✓ 0 / ✗ 53
+    ✓ ✓ [VU5] тело не пустое
+    ✓ ✓ [VU6] статус 200
+    ✗ ✓ [VU6] время < 2с
+      ↳  0% — ✓ 0 / ✗ 45
+    ✓ ✓ [VU6] тело не пустое
+    ✓ ✓ [VU7] статус 200
+    ✗ ✓ [VU7] время < 2с
+      ↳  0% — ✓ 0 / ✗ 45
+    ✓ ✓ [VU7] тело не пустое
+    ✓ ✓ [VU10] статус 200
+    ✗ ✓ [VU10] время < 2с
+      ↳  0% — ✓ 0 / ✗ 38
+    ✓ ✓ [VU10] тело не пустое
+    ✓ ✓ [VU9] статус 200
+    ✗ ✓ [VU9] время < 2с
+      ↳  0% — ✓ 0 / ✗ 30
+    ✓ ✓ [VU9] тело не пустое
+
+    CUSTOM
+    active_vus.....................: 4          min=1            max=10
+    data_transferred...............: 1058601181 1744386.535079/s
+    error_rate.....................: 100.00%    604 out of 604
+    events_returned................: avg=250.00ms  min=250.00ms  med=250.00ms  max=250.00ms   p(90)=250.00ms   p(95)=250.00ms   p(99)=250.00ms  
+    rampdown_response_time.........: avg=3644.06ms min=2237.00ms med=3233.50ms max=6715.00ms  p(90)=5326.60ms  p(95)=5959.60ms  p(99)=6613.23ms 
+    rampup_response_time...........: avg=3627.91ms min=2235.00ms med=3430.00ms max=6837.00ms  p(90)=5228.60ms  p(95)=5943.35ms  p(99)=6651.18ms 
+    requests_total.................: 604        0.995285/s
+    response_time..................: avg=4137.08ms min=2235.00ms med=4064.00ms max=8779.00ms  p(90)=6176.60ms  p(95)=6747.40ms  p(99)=8361.94ms 
+    skip_values....................: avg=8721.11ms min=0.00ms    med=7875.00ms max=25050.00ms p(90)=16835.00ms p(95)=19292.50ms p(99)=23542.50ms
+    status_200.....................: 604        0.995285/s
+    steady_response_time...........: avg=4659.25ms min=2280.00ms med=4333.50ms max=8779.00ms  p(90)=6721.00ms  p(95)=7475.00ms  p(99)=8458.60ms 
+
+    HTTP
+    http_req_duration..............: avg=4069.36ms min=2.88ms    med=4032.74ms max=8778.99ms  p(90)=6155.18ms  p(95)=6745.53ms  p(99)=8361.10ms 
+      { expected_response:true }...: avg=4069.36ms min=2.88ms    med=4032.74ms max=8778.99ms  p(90)=6155.18ms  p(95)=6745.53ms  p(99)=8361.10ms 
+    http_req_failed................: 0.00%      0 out of 614
+    http_reqs......................: 614        1.011763/s
+
+    EXECUTION
+    iteration_duration.............: avg=7030.19ms min=2479.06ms med=5381.21ms max=28398.21ms p(90)=16859.59ms p(95)=22725.16ms p(99)=25863.50ms
+    iterations.....................: 604        0.995285/s
+    vus............................: 1          min=0            max=10
+    vus_max........................: 10         min=10           max=10
+
+    NETWORK
+    data_received..................: 1.1 GB     1.9 MB/s
+    data_sent......................: 320 kB     527 B/s
+
+
+
+
+running (10m06.9s), 00/10 VUs, 604 complete and 0 interrupted iterations
+ramping_load ✓ [======================================] 00/10 VUs  10m0s

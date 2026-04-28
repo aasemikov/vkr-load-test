@@ -1,0 +1,210 @@
+   execution: local
+        script: load-test/parsec_event_one_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+              * single_user: 1 looping VUs for 10m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 1 пользователь, длительность 10 минут  source=console
+INFO[0007] [0] skip=0 | статус=200 | время=3818ms | тело=1487887 байт  source=console
+INFO[0015] [1] skip=250 | статус=200 | время=7624ms | тело=1366727 байт  source=console
+INFO[0022] [2] skip=500 | статус=200 | время=6045ms | тело=1334401 байт  source=console
+INFO[0025] [3] skip=750 | статус=200 | время=3334ms | тело=1350231 байт  source=console
+INFO[0028] [4] skip=1000 | статус=200 | время=3328ms | тело=1432730 байт  source=console
+INFO[0030] [5] skip=1250 | статус=200 | время=3342ms | тело=1512142 байт  source=console
+INFO[0033] [6] skip=1500 | статус=200 | время=3355ms | тело=1402151 байт  source=console
+INFO[0036] [7] skip=1750 | статус=200 | время=3436ms | тело=1630273 байт  source=console
+INFO[0039] [8] skip=2000 | статус=200 | время=3326ms | тело=1463708 байт  source=console
+INFO[0043] [9] skip=2250 | статус=200 | время=3379ms | тело=1687492 байт  source=console
+INFO[0047] [10] skip=2500 | статус=200 | время=3442ms | тело=1604531 байт  source=console
+INFO[0051] [11] skip=2750 | статус=200 | время=3436ms | тело=1535719 байт  source=console
+INFO[0056] [12] skip=3000 | статус=200 | время=3444ms | тело=1329150 байт  source=console
+INFO[0058] [13] skip=3250 | статус=200 | время=3431ms | тело=1651061 байт  source=console
+INFO[0062] [14] skip=3500 | статус=200 | время=3449ms | тело=1799016 байт  source=console
+INFO[0064] [15] skip=3750 | статус=200 | время=3573ms | тело=1594393 байт  source=console
+INFO[0069] [16] skip=4000 | статус=200 | время=3448ms | тело=1567302 байт  source=console
+INFO[0073] [17] skip=4250 | статус=200 | время=3491ms | тело=1770823 байт  source=console
+INFO[0076] [18] skip=4500 | статус=200 | время=3363ms | тело=1680942 байт  source=console
+INFO[0079] [19] skip=4750 | статус=200 | время=3515ms | тело=1891137 байт  source=console
+INFO[0083] [20] skip=5000 | статус=200 | время=3393ms | тело=1824009 байт  source=console
+INFO[0087] [21] skip=5250 | статус=200 | время=3482ms | тело=1799304 байт  source=console
+INFO[0092] [22] skip=5500 | статус=200 | время=3485ms | тело=1566810 байт  source=console
+INFO[0096] [23] skip=5750 | статус=200 | время=3406ms | тело=1760532 байт  source=console
+INFO[0099] [24] skip=6000 | статус=200 | время=3620ms | тело=1874600 байт  source=console
+INFO[0103] [25] skip=6250 | статус=200 | время=3438ms | тело=1597006 байт  source=console
+INFO[0106] [26] skip=6500 | статус=200 | время=3723ms | тело=1987271 байт  source=console
+INFO[0110] [27] skip=6750 | статус=200 | время=3762ms | тело=2013532 байт  source=console
+INFO[0114] [28] skip=7000 | статус=200 | время=3834ms | тело=1909403 байт  source=console
+INFO[0117] [29] skip=7250 | статус=200 | время=3799ms | тело=1895703 байт  source=console
+INFO[0121] [30] skip=7500 | статус=200 | время=3816ms | тело=1957453 байт  source=console
+INFO[0125] [31] skip=7750 | статус=200 | время=3742ms | тело=2147686 байт  source=console
+INFO[0129] [32] skip=8000 | статус=200 | время=3880ms | тело=1958099 байт  source=console
+INFO[0132] [33] skip=8250 | статус=200 | время=3739ms | тело=1788520 байт  source=console
+INFO[0135] [34] skip=8500 | статус=200 | время=3955ms | тело=2229671 байт  source=console
+INFO[0139] [35] skip=8750 | статус=200 | время=3914ms | тело=2112521 байт  source=console
+INFO[0142] [36] skip=9000 | статус=200 | время=3960ms | тело=1773842 байт  source=console
+INFO[0145] [37] skip=9250 | статус=200 | время=3943ms | тело=2106935 байт  source=console
+INFO[0148] [38] skip=9500 | статус=200 | время=3387ms | тело=1745890 байт  source=console
+INFO[0153] [39] skip=9750 | статус=200 | время=4039ms | тело=1685120 байт  source=console
+INFO[0156] [40] skip=10000 | статус=200 | время=4076ms | тело=2083810 байт  source=console
+INFO[0159] [41] skip=10250 | статус=200 | время=4089ms | тело=2065029 байт  source=console
+INFO[0162] [42] skip=10500 | статус=200 | время=4026ms | тело=1951895 байт  source=console
+INFO[0166] [43] skip=10750 | статус=200 | время=4041ms | тело=2084276 байт  source=console
+INFO[0170] [44] skip=11000 | статус=200 | время=4140ms | тело=1709817 байт  source=console
+INFO[0173] [45] skip=11250 | статус=200 | время=4140ms | тело=1490247 байт  source=console
+INFO[0177] [46] skip=11500 | статус=200 | время=4187ms | тело=1514098 байт  source=console
+INFO[0182] [47] skip=11750 | статус=200 | время=4120ms | тело=1519443 байт  source=console
+INFO[0186] [48] skip=12000 | статус=200 | время=4124ms | тело=1555528 байт  source=console
+INFO[0190] [49] skip=12250 | статус=200 | время=4184ms | тело=1474325 байт  source=console
+INFO[0194] [50] skip=12500 | статус=200 | время=4159ms | тело=1481433 байт  source=console
+INFO[0198] [51] skip=12750 | статус=200 | время=4250ms | тело=1557419 байт  source=console
+INFO[0201] [52] skip=13000 | статус=200 | время=4254ms | тело=1489812 байт  source=console
+INFO[0206] [53] skip=13250 | статус=200 | время=4255ms | тело=1560487 байт  source=console
+INFO[0208] [54] skip=13500 | статус=200 | время=4298ms | тело=1553556 байт  source=console
+INFO[0211] [55] skip=13750 | статус=200 | время=3929ms | тело=1500367 байт  source=console
+INFO[0214] [56] skip=14000 | статус=200 | время=4213ms | тело=1600464 байт  source=console
+INFO[0217] [57] skip=14250 | статус=200 | время=4253ms | тело=1568720 байт  source=console
+INFO[0222] [58] skip=14500 | статус=200 | время=4356ms | тело=1618878 байт  source=console
+INFO[0225] [59] skip=14750 | статус=200 | время=4313ms | тело=1515377 байт  source=console
+INFO[0229] [60] skip=15000 | статус=200 | время=4343ms | тело=1490337 байт  source=console
+INFO[0232] [61] skip=15250 | статус=200 | время=4378ms | тело=1519887 байт  source=console
+INFO[0235] [62] skip=15500 | статус=200 | время=4224ms | тело=1484713 байт  source=console
+INFO[0238] [63] skip=15750 | статус=200 | время=4394ms | тело=1572072 байт  source=console
+INFO[0241] [64] skip=16000 | статус=200 | время=4386ms | тело=1836760 байт  source=console
+INFO[0243] [65] skip=16250 | статус=200 | время=4465ms | тело=2274733 байт  source=console
+INFO[0247] [66] skip=16500 | статус=200 | время=4475ms | тело=1914757 байт  source=console
+INFO[0250] [67] skip=16750 | статус=200 | время=4437ms | тело=1804245 байт  source=console
+INFO[0254] [68] skip=17000 | статус=200 | время=4554ms | тело=1942871 байт  source=console
+INFO[0258] [69] skip=17250 | статус=200 | время=4465ms | тело=1892034 байт  source=console
+INFO[0263] [70] skip=17500 | статус=200 | время=4448ms | тело=1872013 байт  source=console
+INFO[0265] [71] skip=17750 | статус=200 | время=4665ms | тело=1862836 байт  source=console
+INFO[0268] [72] skip=18000 | статус=200 | время=4567ms | тело=1959524 байт  source=console
+INFO[0272] [73] skip=18250 | статус=200 | время=4589ms | тело=2330815 байт  source=console
+INFO[0276] [74] skip=18500 | статус=200 | время=4646ms | тело=2073071 байт  source=console
+INFO[0280] [75] skip=18750 | статус=200 | время=4671ms | тело=2094397 байт  source=console
+INFO[0284] [76] skip=19000 | статус=200 | время=4763ms | тело=1914601 байт  source=console
+INFO[0287] [77] skip=19250 | статус=200 | время=4668ms | тело=1688706 байт  source=console
+INFO[0291] [78] skip=19500 | статус=200 | время=4761ms | тело=1622010 байт  source=console
+INFO[0294] [79] skip=19750 | статус=200 | время=4752ms | тело=2190205 байт  source=console
+INFO[0297] [80] skip=20000 | статус=200 | время=4824ms | тело=2293953 байт  source=console
+INFO[0300] [81] skip=20250 | статус=200 | время=4794ms | тело=2231691 байт  source=console
+INFO[0303] [82] skip=20500 | статус=200 | время=4828ms | тело=2393585 байт  source=console
+INFO[0307] [83] skip=20750 | статус=200 | время=4982ms | тело=2495423 байт  source=console
+INFO[0309] [84] skip=21000 | статус=200 | время=4959ms | тело=1993376 байт  source=console
+INFO[0314] [85] skip=21250 | статус=200 | время=4859ms | тело=2144132 байт  source=console
+INFO[0318] [86] skip=21500 | статус=200 | время=4960ms | тело=2334833 байт  source=console
+INFO[0321] [87] skip=21750 | статус=200 | время=4905ms | тело=2337166 байт  source=console
+INFO[0325] [88] skip=22000 | статус=200 | время=4915ms | тело=2203181 байт  source=console
+INFO[0328] [89] skip=22250 | статус=200 | время=4895ms | тело=2124372 байт  source=console
+INFO[0331] [90] skip=22500 | статус=200 | время=4009ms | тело=2190258 байт  source=console
+INFO[0335] [91] skip=22750 | статус=200 | время=4327ms | тело=1932415 байт  source=console
+INFO[0338] [92] skip=23000 | статус=200 | время=4936ms | тело=1820559 байт  source=console
+INFO[0341] [93] skip=23250 | статус=200 | время=4994ms | тело=1779674 байт  source=console
+INFO[0345] [94] skip=23500 | статус=200 | время=4982ms | тело=2359710 байт  source=console
+INFO[0349] [95] skip=23750 | статус=200 | время=4911ms | тело=2438321 байт  source=console
+INFO[0352] [96] skip=24000 | статус=200 | время=4832ms | тело=2421069 байт  source=console
+INFO[0357] [97] skip=24250 | статус=200 | время=4804ms | тело=2039353 байт  source=console
+INFO[0360] [98] skip=24500 | статус=200 | время=4887ms | тело=1942973 байт  source=console
+INFO[0363] [99] skip=24750 | статус=200 | время=4943ms | тело=2079692 байт  source=console
+INFO[0366] [100] skip=25000 | статус=200 | время=5354ms | тело=2248294 байт  source=console
+INFO[0370] [101] skip=25250 | статус=200 | время=5532ms | тело=2051182 байт  source=console
+INFO[0374] [102] skip=25500 | статус=200 | время=5323ms | тело=1785027 байт  source=console
+INFO[0377] [103] skip=25750 | статус=200 | время=6553ms | тело=2120554 байт  source=console
+INFO[0381] [104] skip=26000 | статус=200 | время=6455ms | тело=2080739 байт  source=console
+INFO[0385] [105] skip=26250 | статус=200 | время=6546ms | тело=2278291 байт  source=console
+INFO[0388] [106] skip=26500 | статус=200 | время=7365ms | тело=2141630 байт  source=console
+INFO[0392] [107] skip=26750 | статус=200 | время=7434ms | тело=1748636 байт  source=console
+INFO[0395] [108] skip=27000 | статус=200 | время=7356ms | тело=1977709 байт  source=console
+INFO[0398] [109] skip=27250 | статус=200 | время=7423ms | тело=2348813 байт  source=console
+INFO[0401] [110] skip=27500 | статус=200 | время=7485ms | тело=2244288 байт  source=console
+INFO[0405] [111] skip=27750 | статус=200 | время=8487ms | тело=2402721 байт  source=console
+INFO[0408] [112] skip=28000 | статус=200 | время=8454ms | тело=2130574 байт  source=console
+INFO[0411] [113] skip=28250 | статус=200 | время=9332ms | тело=2095909 байт  source=console
+INFO[0414] [114] skip=28500 | статус=200 | время=9356ms | тело=2069669 байт  source=console
+INFO[0419] [115] skip=28750 | статус=200 | время=9612ms | тело=3048151 байт  source=console
+INFO[0422] [116] skip=29000 | статус=200 | время=10364ms | тело=2185621 байт  source=console
+INFO[0426] [117] skip=29250 | статус=200 | время=10442ms | тело=2207099 байт  source=console
+INFO[0431] [118] skip=29500 | статус=200 | время=10067ms | тело=3797991 байт  source=console
+INFO[0436] [119] skip=29750 | статус=200 | время=11935ms | тело=4602148 байт  source=console
+INFO[0441] [120] skip=30000 | статус=200 | время=11963ms | тело=2701420 байт  source=console
+INFO[0446] [121] skip=30250 | статус=200 | время=12546ms | тело=3123151 байт  source=console
+INFO[0450] [122] skip=30500 | статус=200 | время=12554ms | тело=3481146 байт  source=console
+INFO[0456] [123] skip=30750 | статус=200 | время=12967ms | тело=4272733 байт  source=console
+INFO[0462] [124] skip=31000 | статус=200 | время=14957ms | тело=4625458 байт  source=console
+INFO[0467] [125] skip=31250 | статус=200 | время=14724ms | тело=3588791 байт  source=console
+INFO[0470] [126] skip=31500 | статус=200 | время=13467ms | тело=1933438 байт  source=console
+INFO[0473] [127] skip=31750 | статус=200 | время=15712ms | тело=2516046 байт  source=console
+INFO[0477] [128] skip=32000 | статус=200 | время=15334ms | тело=2386776 байт  source=console
+INFO[0481] [129] skip=32250 | статус=200 | время=15076ms | тело=3610597 байт  source=console
+INFO[0484] [130] skip=32500 | статус=200 | время=17245ms | тело=2799103 байт  source=console
+INFO[0491] [131] skip=32750 | статус=200 | время=17413ms | тело=3950290 байт  source=console
+INFO[0497] [132] skip=33000 | статус=200 | время=18675ms | тело=5299952 байт  source=console
+INFO[0503] [133] skip=33250 | статус=200 | время=19245ms | тело=3962348 байт  source=console
+INFO[0508] [134] skip=33500 | статус=200 | время=21743ms | тело=3012666 байт  source=console
+INFO[0512] [135] skip=33750 | статус=200 | время=22967ms | тело=3320997 байт  source=console
+INFO[0519] [136] skip=34000 | статус=200 | время=24445ms | тело=4887795 байт  source=console
+INFO[0531] [137] skip=34250 | статус=200 | время=25275ms | тело=5301746 байт  source=console
+INFO[0542] [138] skip=34500 | статус=200 | время=26835ms | тело=4594481 байт  source=console
+INFO[0547] [139] skip=34750 | статус=200 | время=27969ms | тело=2992320 байт  source=console
+INFO[0554] [140] skip=35000 | статус=200 | время=29041ms | тело=3269847 байт  source=console
+INFO[0568] [141] skip=35250 | статус=200 | время=31268ms | тело=5403511 байт  source=console
+INFO[0578] [142] skip=35500 | статус=200 | время=34033ms | тело=3976545 байт  source=console
+INFO[0584] [143] skip=35750 | статус=200 | время=35965ms | тело=2444996 байт  source=console
+INFO[0588] [144] skip=36000 | статус=200 | время=36337ms | тело=2574853 байт  source=console
+INFO[0612] [145] skip=36250 | статус=200 | время=38718ms | тело=7567385 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<8000' p(95)=26.44s
+    ✗ 'p(99)<15000' p(99)=36.17s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    response_time
+    ✗ 'p(95)<8000' p(95)=26.44s
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 439    0.714676/s
+    checks_succeeded...: 89.06% 391 out of 439
+    checks_failed......: 10.94% 48 out of 439
+
+    ✓ login status 200
+    ✓ ✓ статус 200
+    ✗ ✓ время < 5с
+      ↳  67.12% — ✓ 98 / ✗ 48
+    ✓ ✓ тело не пустое
+
+    CUSTOM
+    error_rate.....................: 32.88% 48 out of 146
+    requests_total.................: 146     0.237683/s
+    response_time..................: avg=7861.98 min=3326  med=4617.50  max=38718  p(90)=17329.00 p(95)=26445.00
+
+    HTTP
+    http_req_duration..............: avg=7.86s       min=3.3s  med=4.62s max=38.72s p(90)=17.33s  p(95)=26.45s 
+      { expected_response:true }...: avg=7.86s       min=3.3s  med=4.62s max=38.72s p(90)=17.33s  p(95)=26.45s 
+    http_req_failed................: 0.00%   0 out of 147
+    http_reqs......................: 147     0.239311/s
+
+    EXECUTION
+    iteration_duration.............: avg=7.86s       min=3.3s med=4.62s max=38.72s p(90)=17.33s  p(95)=26.45s 
+    iterations.....................: 146     0.237683/s
+    vus............................: 1       min=0          max=1
+    vus_max........................: 1       min=1          max=1
+
+    NETWORK
+    data_received..................: 351 MB  571 kB/s
+    data_sent......................: 77 kB   126 B/s
+
+
+
+
+running (10m14.3s), 0/1 VUs, 146 complete and 0 interrupted iterations
+single_user ✓ [======================================] 1 VUs  10m0s
