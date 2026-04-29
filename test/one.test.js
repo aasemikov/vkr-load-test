@@ -39,14 +39,13 @@ function getAuthToken() {
 }
 
 export function setup() {
-    console.log('🚀 Запуск теста: 1 пользователь, длительность 10 минут');
+    console.log('Запуск теста: 1 пользователь, длительность 10 минут');
     return { token: getAuthToken() };
 }
 
 export default function (data) {
     const startTime = new Date();
 
-    // skip растет с каждой итерацией
     const skip = __ITER * 250;
 
     const url = `${BASE_URL}/v2/documents?filter=%5B%7B%22property%22%3A%20%22documentType.code%22%2C%22operator%22%3A%20%22%3D%22%2C%22value%22%3A%20%22TL%22%7D%5D&relations=documentType,statusHistory.status,statusHistory.contractor,project,estimates.items,estimates.organization&skip=${skip}&take=250&sort=-id`;
@@ -70,17 +69,15 @@ export default function (data) {
 
     errorRate.add(!success);
 
-    // Логирование каждой итерации
     console.log(`[${__ITER}] skip=${skip} | статус=${res.status} | время=${duration}ms | тело=${res.body?.length || 0} байт`);
     if (res.status !== 200) {
         console.log(`[${__ITER}] body=${res.body}`);
     }
 
-    // Пауза между запросами (0-2 секунды)
     sleep(Math.random() * 2);
 }
 
 export function teardown(data) {
-    console.log(`\n✅ Тест завершен. Всего запросов: ${requestsTotal.values.count}`);
-    console.log(`📊 Среднее время ответа: ${responseTime.values.avg?.toFixed(2) || 'N/A'}ms`);
+    console.log(`\nТест завершен. Всего запросов: ${requestsTotal.values.count}`);
+    console.log(`Среднее время ответа: ${responseTime.values.avg?.toFixed(2) || 'N/A'}ms`);
 }
