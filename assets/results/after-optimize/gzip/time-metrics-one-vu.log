@@ -1,0 +1,183 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load-test/parsec_event_one_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 1m30s max duration (incl. graceful stop):
+              * single_user: 1 looping VUs for 1m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 1 пользователь, длительность 1.5 минут  source=console
+INFO[0002] [0] skip=0 | статус=200 | время=2045ms | тело=1487887 байт  source=console
+INFO[0005] [1] skip=250 | статус=200 | время=2113ms | тело=1366727 байт  source=console
+INFO[0008] [2] skip=500 | статус=200 | время=2203ms | тело=1334401 байт  source=console
+INFO[0011] [3] skip=750 | статус=200 | время=2296ms | тело=1350231 байт  source=console
+INFO[0014] [4] skip=1000 | статус=200 | время=2227ms | тело=1432730 байт  source=console
+INFO[0018] [5] skip=1250 | статус=200 | время=2311ms | тело=1512142 байт  source=console
+INFO[0022] [6] skip=1500 | статус=200 | время=2191ms | тело=1402151 байт  source=console
+INFO[0025] [7] skip=1750 | статус=200 | время=2386ms | тело=1630273 байт  source=console
+INFO[0029] [8] skip=2000 | статус=200 | время=2245ms | тело=1463708 байт  source=console
+INFO[0032] [9] skip=2250 | статус=200 | время=2366ms | тело=1687492 байт  source=console
+INFO[0035] [10] skip=2500 | статус=200 | время=2321ms | тело=1604531 байт  source=console
+INFO[0038] [11] skip=2750 | статус=200 | время=2336ms | тело=1535719 байт  source=console
+INFO[0041] [12] skip=3000 | статус=200 | время=2304ms | тело=1329150 байт  source=console
+INFO[0046] [13] skip=3250 | статус=200 | время=2357ms | тело=1651061 байт  source=console
+INFO[0050] [14] skip=3500 | статус=200 | время=2522ms | тело=1799016 байт  source=console
+INFO[0054] [15] skip=3750 | статус=200 | время=2279ms | тело=1594393 байт  source=console
+INFO[0058] [16] skip=4000 | статус=200 | время=2463ms | тело=1567302 байт  source=console
+INFO[0061] [17] skip=4250 | статус=200 | время=2614ms | тело=1770823 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=2.53s
+    ✗ 'p(99)<1500' p(99)=2.59s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    response_time
+    ✗ 'p(95)<1000' p(95)=2535.8
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 55     0.89099/s
+    checks_succeeded...: 67.27% 37 out of 55
+    checks_failed......: 32.72% 18 out of 55
+
+    ✓ login status 200
+    ✓ ✓ статус 200
+    ✗ ✓ время < 2с
+      ↳  0% — ✓ 0 / ✗ 18
+    ✓ ✓ тело не пустое
+
+    CUSTOM
+    error_rate.....................: 100.00% 18 out of 18
+    requests_total.................: 18      0.291597/s
+    response_time..................: avg=2309.944444 min=2045   med=2307.5 max=2614  p(90)=2480.7 p(95)=2535.8
+
+    HTTP
+    http_req_duration..............: avg=2.18s       min=5.12ms med=2.3s   max=2.61s p(90)=2.47s  p(95)=2.53s 
+      { expected_response:true }...: avg=2.18s       min=5.12ms med=2.3s   max=2.61s p(90)=2.47s  p(95)=2.53s 
+    http_req_failed................: 0.00%   0 out of 19
+    http_reqs......................: 19      0.307797/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.42s       min=2.39s  med=3.53s  max=4.28s p(90)=4.21s  p(95)=4.27s 
+    iterations.....................: 18      0.291597/s
+    vus............................: 1       min=1        max=1
+    vus_max........................: 1       min=1        max=1
+
+    NETWORK
+    data_received..................: 29 MB   472 kB/s
+    data_sent......................: 9.6 kB  156 B/s
+
+
+
+
+running (1m01.7s), 0/1 VUs, 18 complete and 0 interrupted iterations
+single_user ✓ [======================================] 1 VUs  1m0s
+ERRO[0061] TypeError: Cannot read property 'count' of undefined
+        at teardown (file:///home/aa.semikov@titan2.ru/project/load-test/parsec_event_one_user.js:89:103(6))  hint="script exception"
+aa.semikov@app-sb01-ddt-7:~/project$ k6 run load-test/parsec_event_one_user.js 
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load-test/parsec_event_one_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 1m30s max duration (incl. graceful stop):
+              * single_user: 1 looping VUs for 1m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 1 пользователь, длительность 1.5 минут  source=console
+INFO[0002] [0] skip=0 | статус=200 | время=2207ms | тело=148787 байт  source=console
+INFO[0006] [1] skip=250 | статус=200 | время=2127ms | тело=136627 байт  source=console
+INFO[0008] [2] skip=500 | статус=200 | время=2240ms | тело=133401 байт  source=console
+INFO[0012] [3] skip=750 | статус=200 | время=2297ms | тело=135043 байт  source=console
+INFO[0017] [4] skip=1000 | статус=200 | время=2407ms | тело=143231 байт  source=console
+INFO[0021] [5] skip=1250 | статус=200 | время=2523ms | тело=151524 байт  source=console
+INFO[0025] [6] skip=1500 | статус=200 | время=2390ms | тело=140216 байт  source=console
+INFO[0029] [7] skip=1750 | статус=200 | время=2508ms | тело=120273 байт  source=console
+INFO[0032] [8] skip=2000 | статус=200 | время=2417ms | тело=173408 байт  source=console
+INFO[0035] [9] skip=2250 | статус=200 | время=2457ms | тело=168122 байт  source=console
+INFO[0039] [10] skip=2500 | статус=200 | время=2464ms | тело=160541 байт  source=console
+INFO[0043] [11] skip=2750 | статус=200 | время=2279ms | тело=123419 байт  source=console
+INFO[0046] [12] skip=3000 | статус=200 | время=2247ms | тело=132120 байт  source=console
+INFO[0048] [13] skip=3250 | статус=200 | время=2500ms | тело=165641 байт  source=console
+INFO[0052] [14] skip=3500 | статус=200 | время=2432ms | тело=174016 байт  source=console
+INFO[0056] [15] skip=3750 | статус=200 | время=2723ms | тело=151293 байт  source=console
+INFO[0060] [16] skip=4000 | статус=200 | время=2515ms | тело=112352 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=2.55s
+    ✗ 'p(99)<1500' p(99)=2.68s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    response_time
+    ✗ 'p(95)<1000' p(95)=2563
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 52     0.836322/s
+    checks_succeeded...: 67.30% 35 out of 52
+    checks_failed......: 32.69% 17 out of 52
+
+    ✓ login status 200
+    ✓ ✓ статус 200
+    ✗ ✓ время < 2с
+      ↳  0% — ✓ 0 / ✗ 17
+    ✓ ✓ тело не пустое
+
+    CUSTOM
+    error_rate.....................: 100.00% 17 out of 17
+    requests_total.................: 17      0.273413/s
+    response_time..................: avg=2396.058824 min=2127    med=2417  max=2723  p(90)=2518.2 p(95)=2563 
+
+    HTTP
+    http_req_duration..............: avg=2.26s       min=13.99ms med=2.41s max=2.72s p(90)=2.51s  p(95)=2.55s
+      { expected_response:true }...: avg=2.26s       min=13.99ms med=2.41s max=2.72s p(90)=2.51s  p(95)=2.55s
+    http_req_failed................: 0.00%   0 out of 18
+    http_reqs......................: 18      0.289496/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.65s       min=2.45s   med=3.82s max=4.38s p(90)=4.32s  p(95)=4.36s
+    iterations.....................: 17      0.273413/s
+    vus............................: 1       min=1        max=1
+    vus_max........................: 1       min=1        max=1
+
+    NETWORK
+    data_received..................: 2.35 MB   26.73 kB/s
+    data_sent......................: 9.1 kB  147 B/s
+
+
+
+
+running (1m02.2s), 0/1 VUs, 17 complete and 0 interrupted iterations
+single_user ✓ [======================================] 1 VUs  1m0s
+ERRO[0062] TypeError: Cannot read property 'count' of undefined

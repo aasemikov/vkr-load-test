@@ -1,0 +1,566 @@
+aa.semikov@app-sb01-ddt-7:~/project/load-test$ ./cpu_ram.sh 
+🟢 Запуск мониторинга CPU/RAM...
+📁 Лог: /home/aa.semikov@titan2.ru/project/load-test/full_stats.log
+⏱️  Интервал: 2 секунды
+🔍 Мониторинг запущен (PID: 24740)
+🚀 Запуск k6 теста...
+
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: parsec_event_one_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+              * single_user: 1 looping VUs for 10m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 1 пользователь, длительность 10 минут  source=console
+INFO[0003] [0] skip=250 | статус=200 | время=3344ms | тело=1855933 байт  source=console
+INFO[0003] [1] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0005] [2] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0006] [3] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0008] [4] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0009] [5] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0010] [6] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0012] [7] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0014] [8] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0015] [9] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0016] [10] skip=250 | статус=200 | время=71ms | тело=1855933 байт  source=console
+INFO[0018] [11] skip=250 | статус=200 | время=79ms | тело=1855933 байт  source=console
+INFO[0018] [12] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0019] [13] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0021] [14] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0021] [15] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0023] [16] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0024] [17] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0026] [18] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0027] [19] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0028] [20] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0030] [21] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0032] [22] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0032] [23] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0034] [24] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0035] [25] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0037] [26] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0038] [27] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0039] [28] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0039] [29] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0040] [30] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0042] [31] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0042] [32] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0044] [33] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0044] [34] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0045] [35] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0045] [36] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0046] [37] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0048] [38] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0049] [39] skip=250 | статус=200 | время=67ms | тело=1855933 байт  source=console
+INFO[0050] [40] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0050] [41] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0050] [42] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0052] [43] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0053] [44] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0054] [45] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0055] [46] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0055] [47] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0057] [48] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0059] [49] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0060] [50] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0060] [51] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0062] [52] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0066] [53] skip=250 | статус=200 | время=3330ms | тело=1855933 байт  source=console
+INFO[0067] [54] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0069] [55] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0069] [56] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0069] [57] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0071] [58] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0071] [59] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0073] [60] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0074] [61] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0075] [62] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0075] [63] skip=250 | статус=200 | время=69ms | тело=1855933 байт  source=console
+INFO[0076] [64] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0076] [65] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0077] [66] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0078] [67] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0078] [68] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0080] [69] skip=250 | статус=200 | время=65ms | тело=1855933 байт  source=console
+INFO[0080] [70] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0080] [71] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0081] [72] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0081] [73] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0082] [74] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0083] [75] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0083] [76] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0085] [77] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0086] [78] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0087] [79] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0088] [80] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0089] [81] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0090] [82] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0091] [83] skip=250 | статус=200 | время=66ms | тело=1855933 байт  source=console
+INFO[0092] [84] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0093] [85] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0095] [86] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0095] [87] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0095] [88] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0097] [89] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0099] [90] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0100] [91] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0101] [92] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0102] [93] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0102] [94] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0102] [95] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0102] [96] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0103] [97] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0104] [98] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0105] [99] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0105] [100] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0106] [101] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0107] [102] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0108] [103] skip=250 | статус=200 | время=64ms | тело=1855933 байт  source=console
+INFO[0109] [104] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0111] [105] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0112] [106] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0113] [107] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0113] [108] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0114] [109] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0115] [110] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0115] [111] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0116] [112] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0117] [113] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0118] [114] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0119] [115] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0119] [116] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0120] [117] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0121] [118] skip=250 | статус=200 | время=64ms | тело=1855933 байт  source=console
+INFO[0122] [119] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0123] [120] skip=250 | статус=200 | время=94ms | тело=1855933 байт  source=console
+INFO[0123] [121] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0125] [122] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0130] [123] skip=250 | статус=200 | время=3129ms | тело=1855933 байт  source=console
+INFO[0131] [124] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0132] [125] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0133] [126] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0135] [127] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0135] [128] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0137] [129] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0137] [130] skip=250 | статус=200 | время=90ms | тело=1855933 байт  source=console
+INFO[0138] [131] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0138] [132] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0139] [133] skip=250 | статус=200 | время=66ms | тело=1855933 байт  source=console
+INFO[0140] [134] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0142] [135] skip=250 | статус=200 | время=68ms | тело=1855933 байт  source=console
+INFO[0143] [136] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0144] [137] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0145] [138] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0147] [139] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0149] [140] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0149] [141] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0151] [142] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0152] [143] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0153] [144] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0154] [145] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0156] [146] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0156] [147] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0157] [148] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0158] [149] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0159] [150] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0161] [151] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0163] [152] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0163] [153] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0164] [154] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0165] [155] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0166] [156] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0167] [157] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0167] [158] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0169] [159] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0170] [160] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0172] [161] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0174] [162] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0175] [163] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0176] [164] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0178] [165] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0179] [166] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0180] [167] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0182] [168] skip=250 | статус=200 | время=68ms | тело=1855933 байт  source=console
+INFO[0183] [169] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0184] [170] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0185] [171] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0186] [172] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0188] [173] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0193] [174] skip=250 | статус=200 | время=3135ms | тело=1855933 байт  source=console
+INFO[0194] [175] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0194] [176] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0195] [177] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0197] [178] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0197] [179] skip=250 | статус=200 | время=68ms | тело=1855933 байт  source=console
+INFO[0198] [180] skip=250 | статус=200 | время=71ms | тело=1855933 байт  source=console
+INFO[0199] [181] skip=250 | статус=200 | время=50ms | тело=1855933 байт  source=console
+INFO[0200] [182] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0201] [183] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0203] [184] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0204] [185] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0204] [186] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0205] [187] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0206] [188] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0207] [189] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0208] [190] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0210] [191] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0211] [192] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0213] [193] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0213] [194] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0215] [195] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0215] [196] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0216] [197] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0216] [198] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0217] [199] skip=250 | статус=200 | время=75ms | тело=1855933 байт  source=console
+INFO[0219] [200] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0221] [201] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0222] [202] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0224] [203] skip=250 | статус=200 | время=71ms | тело=1855933 байт  source=console
+INFO[0225] [204] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0227] [205] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0227] [206] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0228] [207] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0230] [208] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0232] [209] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0232] [210] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0232] [211] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0233] [212] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0234] [213] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0235] [214] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0235] [215] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0237] [216] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0239] [217] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0239] [218] skip=250 | статус=200 | время=65ms | тело=1855933 байт  source=console
+INFO[0240] [219] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0241] [220] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0243] [221] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0244] [222] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0245] [223] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0246] [224] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0246] [225] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0246] [226] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0248] [227] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0249] [228] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0250] [229] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0252] [230] skip=250 | статус=200 | время=81ms | тело=1855933 байт  source=console
+INFO[0252] [231] skip=250 | статус=200 | время=80ms | тело=1855933 байт  source=console
+INFO[0257] [232] skip=250 | статус=200 | время=3522ms | тело=1855933 байт  source=console
+INFO[0257] [233] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0259] [234] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0259] [235] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0261] [236] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0261] [237] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0263] [238] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0264] [239] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0266] [240] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0268] [241] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0270] [242] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0271] [243] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0272] [244] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0272] [245] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0273] [246] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0275] [247] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0275] [248] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0277] [249] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0279] [250] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0280] [251] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0280] [252] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0280] [253] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0282] [254] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0283] [255] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0284] [256] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0284] [257] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0286] [258] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0287] [259] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0289] [260] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0290] [261] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0291] [262] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0293] [263] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0294] [264] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0296] [265] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0297] [266] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0299] [267] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0300] [268] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0302] [269] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0302] [270] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0303] [271] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0304] [272] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0306] [273] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0308] [274] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0309] [275] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0309] [276] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0310] [277] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0312] [278] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0314] [279] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0316] [280] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0321] [281] skip=250 | статус=200 | время=3091ms | тело=1855933 байт  source=console
+INFO[0321] [282] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0322] [283] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0323] [284] skip=250 | статус=200 | время=83ms | тело=1855933 байт  source=console
+INFO[0324] [285] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0325] [286] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0326] [287] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0326] [288] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0327] [289] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0329] [290] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0331] [291] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0333] [292] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0334] [293] skip=250 | статус=200 | время=86ms | тело=1855933 байт  source=console
+INFO[0336] [294] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0338] [295] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0339] [296] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0340] [297] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0341] [298] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0343] [299] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0345] [300] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0346] [301] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0348] [302] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0349] [303] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0350] [304] skip=250 | статус=200 | время=90ms | тело=1855933 байт  source=console
+INFO[0350] [305] skip=250 | статус=200 | время=64ms | тело=1855933 байт  source=console
+INFO[0351] [306] skip=250 | статус=200 | время=76ms | тело=1855933 байт  source=console
+INFO[0352] [307] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0354] [308] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0356] [309] skip=250 | статус=200 | время=73ms | тело=1855933 байт  source=console
+INFO[0357] [310] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0359] [311] skip=250 | статус=200 | время=89ms | тело=1855933 байт  source=console
+INFO[0361] [312] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0361] [313] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0362] [314] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0363] [315] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0364] [316] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0364] [317] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0365] [318] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0365] [319] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0367] [320] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0368] [321] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0370] [322] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0371] [323] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0372] [324] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0372] [325] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0373] [326] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0375] [327] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0376] [328] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0377] [329] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0377] [330] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0379] [331] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0379] [332] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0379] [333] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0380] [334] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0385] [335] skip=250 | статус=200 | время=3297ms | тело=1855933 байт  source=console
+INFO[0386] [336] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0388] [337] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0389] [338] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0391] [339] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0392] [340] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0394] [341] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0395] [342] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0396] [343] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0398] [344] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0407] [345] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0408] [346] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0408] [347] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0409] [348] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0410] [349] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0411] [350] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0412] [351] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0413] [352] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0414] [353] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0415] [354] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0416] [355] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0416] [356] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0417] [357] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0418] [358] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0420] [359] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0421] [360] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0422] [361] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0424] [362] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0426] [363] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0428] [364] skip=250 | статус=200 | время=77ms | тело=1855933 байт  source=console
+INFO[0429] [365] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0431] [366] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0433] [367] skip=250 | статус=200 | время=74ms | тело=1855933 байт  source=console
+INFO[0434] [368] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0435] [369] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0437] [370] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0437] [371] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0438] [372] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0438] [373] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0439] [374] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0440] [375] skip=250 | статус=200 | время=83ms | тело=1855933 байт  source=console
+INFO[0442] [376] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0442] [377] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0443] [378] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0444] [379] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0448] [380] skip=250 | статус=200 | время=3257ms | тело=1855933 байт  source=console
+INFO[0450] [381] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0450] [382] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0451] [383] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0452] [384] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0452] [385] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0453] [386] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0454] [387] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0455] [388] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0457] [389] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0469] [390] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0469] [391] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0470] [392] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0471] [393] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0473] [394] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0473] [395] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0473] [396] skip=250 | статус=200 | время=74ms | тело=1855933 байт  source=console
+INFO[0475] [397] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0475] [398] skip=250 | статус=200 | время=66ms | тело=1855933 байт  source=console
+INFO[0477] [399] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0478] [400] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0478] [401] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0480] [402] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0480] [403] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0480] [404] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0482] [405] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0484] [406] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0485] [407] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0487] [408] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0488] [409] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0488] [410] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0490] [411] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0491] [412] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0492] [413] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0492] [414] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0494] [415] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0495] [416] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0495] [417] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0496] [418] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0498] [419] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0499] [420] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0500] [421] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0501] [422] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0503] [423] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0504] [424] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0505] [425] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0505] [426] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0507] [427] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0511] [428] skip=250 | статус=200 | время=3144ms | тело=1855933 байт  source=console
+INFO[0513] [429] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0514] [430] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0514] [431] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0516] [432] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0529] [433] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0529] [434] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0529] [435] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0531] [436] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0533] [437] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0533] [438] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0534] [439] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0536] [440] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0537] [441] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0539] [442] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0541] [443] skip=250 | статус=200 | время=68ms | тело=1855933 байт  source=console
+INFO[0543] [444] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0544] [445] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0546] [446] skip=250 | статус=200 | время=63ms | тело=1855933 байт  source=console
+INFO[0546] [447] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0548] [448] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0548] [449] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0548] [450] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0550] [451] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0551] [452] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0553] [453] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0554] [454] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0555] [455] skip=250 | статус=200 | время=60ms | тело=1855933 байт  source=console
+INFO[0556] [456] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0557] [457] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0558] [458] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0559] [459] skip=250 | статус=200 | время=86ms | тело=1855933 байт  source=console
+INFO[0562] [460] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0562] [461] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0563] [462] skip=250 | статус=200 | время=61ms | тело=1855933 байт  source=console
+INFO[0564] [463] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0565] [464] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0566] [465] skip=250 | статус=200 | время=64ms | тело=1855933 байт  source=console
+INFO[0566] [466] skip=250 | статус=200 | время=56ms | тело=1855933 байт  source=console
+INFO[0567] [467] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0568] [468] skip=250 | статус=200 | время=69ms | тело=1855933 байт  source=console
+INFO[0569] [469] skip=250 | статус=200 | время=59ms | тело=1855933 байт  source=console
+INFO[0571] [470] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0575] [471] skip=250 | статус=200 | время=3050ms | тело=1855933 байт  source=console
+INFO[0575] [472] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0576] [473] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+INFO[0577] [474] skip=250 | статус=200 | время=50ms | тело=1855933 байт  source=console
+INFO[0588] [475] skip=250 | статус=200 | время=62ms | тело=1855933 байт  source=console
+INFO[0589] [476] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0591] [477] skip=250 | статус=200 | время=54ms | тело=1855933 байт  source=console
+INFO[0592] [478] skip=250 | статус=200 | время=51ms | тело=1855933 байт  source=console
+INFO[0593] [479] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0594] [480] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0595] [481] skip=250 | статус=200 | время=52ms | тело=1855933 байт  source=console
+INFO[0596] [482] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0596] [483] skip=250 | статус=200 | время=74ms | тело=1855933 байт  source=console
+INFO[0597] [484] skip=250 | статус=200 | время=58ms | тело=1855933 байт  source=console
+INFO[0597] [485] skip=250 | статус=200 | время=57ms | тело=1855933 байт  source=console
+INFO[0598] [486] skip=250 | статус=200 | время=55ms | тело=1855933 байт  source=console
+INFO[0598] [487] skip=250 | статус=200 | время=53ms | тело=1855933 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✓ 'rate<0.05' rate=0.00%
+
+    http_req_duration
+    ✓ 'p(95)<5000' p(95)=74.25ms
+    ✓ 'p(99)<5500' p(99)=3.15s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    response_time
+    ✓ 'p(95)<5000' p(95)=74
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 1465    2.439771/s
+    checks_succeeded...: 100.00% 1465 out of 1465
+    checks_failed......: 0.00%   0 out of 1465
+
+    ✓ login status 200
+    ✓ ✓ статус 200
+    ✓ ✓ время < 5с
+    ✓ ✓ тело не пустое
+
+    CUSTOM
+    error_rate.....................: 0.00%  0 out of 488
+    requests_total.................: 488    0.812702/s
+    response_time..................: avg=123.491803 min=50      med=58      max=3522   p(90)=63      p(95)=74     
+
+    HTTP
+    http_req_duration..............: avg=123.02ms   min=23.04ms med=57.49ms max=3.52s  p(90)=63.08ms p(95)=74.25ms
+      { expected_response:true }...: avg=123.02ms   min=23.04ms med=57.49ms max=3.52s  p(90)=63.08ms p(95)=74.25ms
+    http_req_failed................: 0.00%  0 out of 489
+    http_reqs......................: 489    0.814367/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.23s      min=77.19ms med=1.08s   max=12.49s p(90)=1.9s    p(95)=2.03s  
+    iterations.....................: 488    0.812702/s
+    vus............................: 1      min=1        max=1
+    vus_max........................: 1      min=1        max=1
+
+    NETWORK
+    data_received..................: 965 MB 1.6 MB/s
+    data_sent......................: 256 kB 427 B/s
+
+
+
+
+running (10m00.5s), 0/1 VUs, 488 complete and 0 interrupted iterations
+single_user ✓ [======================================] 1 VUs  10m0s

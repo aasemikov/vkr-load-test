@@ -1,0 +1,342 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load-test/parsec_event_five_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 5 max VUs, 1m30s max duration (incl. graceful stop):
+              * multiple_users: 5 looping VUs for 1m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 5 пользователей, длительность 10 минут  source=console
+INFO[0000] [VU5][ITER0] skip=400 | статус=500 | время=301ms | тело=52 байт  source=console
+INFO[0000] [VU3][ITER0] skip=200 | статус=500 | время=329ms | тело=52 байт  source=console
+INFO[0000] [VU2][ITER0] skip=100 | статус=500 | время=333ms | тело=52 байт  source=console
+INFO[0000] [VU1][ITER0] skip=0 | статус=500 | время=349ms | тело=52 байт  source=console
+INFO[0003] [VU1][ITER1] skip=250 | статус=200 | время=2173ms | тело=1366727 байт  source=console
+INFO[0003] [VU2][ITER1] skip=350 | статус=200 | время=2326ms | тело=1267402 байт  source=console
+INFO[0004] [VU5][ITER1] skip=650 | статус=200 | время=2568ms | тело=1386375 байт  source=console
+INFO[0004] [VU4][ITER0] skip=300 | статус=200 | время=4587ms | тело=1262772 байт  source=console
+INFO[0004] [VU3][ITER1] skip=450 | статус=200 | время=4205ms | тело=1269511 байт  source=console
+INFO[0006] [VU1][ITER2] skip=500 | статус=200 | время=2201ms | тело=1334401 байт  source=console
+INFO[0007] [VU5][ITER2] skip=900 | статус=200 | время=2510ms | тело=1341692 байт  source=console
+INFO[0008] [VU4][ITER1] skip=550 | статус=200 | время=2444ms | тело=1392804 байт  source=console
+INFO[0008] [VU2][ITER2] skip=600 | статус=200 | время=3608ms | тело=1382756 байт  source=console
+INFO[0009] [VU3][ITER2] skip=700 | статус=200 | время=3476ms | тело=1362548 байт  source=console
+INFO[0009] [VU5][ITER3] skip=1150 | статус=200 | время=2373ms | тело=1514783 байт  source=console
+INFO[0010] [VU1][ITER3] skip=750 | статус=200 | время=2238ms | тело=1350231 байт  source=console
+INFO[0012] [VU2][ITER3] skip=850 | статус=200 | время=2485ms | тело=1326459 байт  source=console
+INFO[0013] [VU4][ITER2] skip=800 | статус=200 | время=2479ms | тело=1359165 байт  source=console
+INFO[0013] [VU1][ITER4] skip=1000 | статус=200 | время=2768ms | тело=1432730 байт  source=console
+INFO[0015] [VU5][ITER4] skip=1400 | статус=200 | время=4447ms | тело=1500810 байт  source=console
+INFO[0015] [VU3][ITER3] skip=950 | статус=200 | время=4690ms | тело=1407887 байт  source=console
+INFO[0015] [VU4][ITER3] skip=1050 | статус=200 | время=2396ms | тело=1414243 байт  source=console
+INFO[0016] [VU2][ITER4] skip=1100 | статус=200 | время=2377ms | тело=1508228 байт  source=console
+INFO[0017] [VU1][ITER5] skip=1250 | статус=200 | время=2508ms | тело=1512142 байт  source=console
+INFO[0017] [VU5][ITER5] skip=1650 | статус=200 | время=2339ms | тело=1511267 байт  source=console
+INFO[0019] [VU4][ITER4] skip=1300 | статус=200 | время=2424ms | тело=1540981 байт  source=console
+INFO[0019] [VU2][ITER5] skip=1350 | статус=200 | время=2519ms | тело=1471694 байт  source=console
+INFO[0019] [VU3][ITER4] skip=1200 | статус=200 | время=2802ms | тело=1483954 байт  source=console
+INFO[0020] [VU5][ITER6] skip=1900 | статус=200 | время=2305ms | тело=1501798 байт  source=console
+INFO[0021] [VU1][ITER6] skip=1500 | статус=200 | время=2410ms | тело=1402151 байт  source=console
+INFO[0022] [VU4][ITER5] skip=1550 | статус=200 | время=2355ms | тело=1402536 байт  source=console
+INFO[0022] [VU2][ITER6] skip=1600 | статус=200 | время=2368ms | тело=1513812 байт  source=console
+INFO[0023] [VU5][ITER7] skip=2150 | статус=200 | время=2206ms | тело=1658704 байт  source=console
+INFO[0024] [VU3][ITER5] skip=1450 | статус=200 | время=2725ms | тело=1450012 байт  source=console
+INFO[0025] [VU1][ITER7] skip=1750 | статус=200 | время=2260ms | тело=1630273 байт  source=console
+INFO[0025] [VU2][ITER7] skip=1850 | статус=200 | время=2506ms | тело=1566174 байт  source=console
+INFO[0026] [VU4][ITER6] skip=1800 | статус=200 | время=2650ms | тело=1633773 байт  source=console
+INFO[0027] [VU5][ITER8] skip=2400 | статус=200 | время=2952ms | тело=1633241 байт  source=console
+INFO[0027] [VU3][ITER6] skip=1700 | статус=200 | время=2999ms | тело=1561555 байт  source=console
+INFO[0028] [VU1][ITER8] skip=2000 | статус=200 | время=2514ms | тело=1463708 байт  source=console
+INFO[0028] [VU2][ITER8] skip=2100 | статус=200 | время=2350ms | тело=1551221 байт  source=console
+INFO[0030] [VU3][ITER7] skip=1950 | статус=200 | время=2711ms | тело=1494306 байт  source=console
+INFO[0030] [VU4][ITER7] skip=2050 | статус=200 | время=2904ms | тело=1498800 байт  source=console
+INFO[0031] [VU1][ITER9] skip=2250 | статус=200 | время=2276ms | тело=1687492 байт  source=console
+INFO[0031] [VU5][ITER9] skip=2650 | статус=200 | время=2628ms | тело=1588344 байт  source=console
+INFO[0032] [VU2][ITER9] skip=2350 | статус=200 | время=2825ms | тело=1682366 байт  source=console
+INFO[0033] [VU3][ITER8] skip=2200 | статус=200 | время=2463ms | тело=1684672 байт  source=console
+INFO[0033] [VU1][ITER10] skip=2500 | статус=200 | время=2411ms | тело=1604531 байт  source=console
+INFO[0034] [VU5][ITER10] skip=2900 | статус=200 | время=2428ms | тело=1307519 байт  source=console
+INFO[0036] [VU1][ITER11] skip=2750 | статус=200 | время=2156ms | тело=1535719 байт  source=console
+INFO[0037] [VU2][ITER10] skip=2600 | статус=200 | время=4464ms | тело=1579199 байт  source=console
+INFO[0037] [VU4][ITER8] skip=2300 | статус=200 | время=4356ms | тело=1714158 байт  source=console
+INFO[0037] [VU3][ITER9] skip=2450 | статус=200 | время=2382ms | тело=1603456 байт  source=console
+INFO[0037] [VU5][ITER11] skip=3150 | статус=200 | время=2377ms | тело=1538803 байт  source=console
+INFO[0039] [VU4][ITER9] skip=2550 | статус=200 | время=2486ms | тело=1588020 байт  source=console
+INFO[0040] [VU2][ITER11] skip=2850 | статус=200 | время=2682ms | тело=1380333 байт  source=console
+INFO[0040] [VU5][ITER12] skip=3400 | статус=200 | время=2269ms | тело=1797113 байт  source=console
+INFO[0040] [VU1][ITER12] skip=3000 | статус=200 | время=3771ms | тело=1329150 байт  source=console
+INFO[0041] [VU3][ITER10] skip=2700 | статус=200 | время=4361ms | тело=1551857 байт  source=console
+INFO[0043] [VU4][ITER10] skip=2800 | статус=200 | время=2521ms | тело=1439117 байт  source=console
+INFO[0044] [VU1][ITER13] skip=3250 | статус=200 | время=2230ms | тело=1651061 байт  source=console
+INFO[0044] [VU2][ITER12] skip=3100 | статус=200 | время=3880ms | тело=1463341 байт  source=console
+INFO[0045] [VU5][ITER13] skip=3650 | статус=200 | время=3423ms | тело=1695013 байт  source=console
+INFO[0046] [VU3][ITER11] skip=2950 | статус=200 | время=2506ms | тело=1361889 байт  source=console
+INFO[0046] [VU4][ITER11] skip=3050 | статус=200 | время=2325ms | тело=1416097 байт  source=console
+INFO[0048] [VU1][ITER14] skip=3500 | статус=200 | время=3041ms | тело=1799016 байт  source=console
+INFO[0048] [VU2][ITER13] skip=3350 | статус=200 | время=2468ms | тело=1697464 байт  source=console
+INFO[0049] [VU5][ITER14] skip=3900 | статус=200 | время=2519ms | тело=1529148 байт  source=console
+INFO[0049] [VU4][ITER12] skip=3300 | статус=200 | время=2925ms | тело=1658957 байт  source=console
+INFO[0050] [VU3][ITER12] skip=3200 | статус=200 | время=2993ms | тело=1577864 байт  source=console
+INFO[0052] [VU5][ITER15] skip=4150 | статус=200 | время=2479ms | тело=1651977 байт  source=console
+INFO[0052] [VU1][ITER15] skip=3750 | статус=200 | время=2241ms | тело=1594393 байт  source=console
+INFO[0053] [VU2][ITER14] skip=3600 | статус=200 | время=3533ms | тело=1806312 байт  source=console
+INFO[0054] [VU4][ITER13] skip=3550 | статус=200 | время=2765ms | тело=1831541 байт  source=console
+INFO[0055] [VU3][ITER13] skip=3450 | статус=200 | время=3794ms | тело=1790613 байт  source=console
+INFO[0055] [VU5][ITER16] skip=4400 | статус=200 | время=2466ms | тело=1786880 байт  source=console
+INFO[0056] [VU1][ITER16] skip=4000 | статус=200 | время=2998ms | тело=1567302 байт  source=console
+INFO[0057] [VU2][ITER15] skip=3850 | статус=200 | время=2310ms | тело=1538646 байт  source=console
+INFO[0057] [VU4][ITER14] skip=3800 | статус=200 | время=2337ms | тело=1516784 байт  source=console
+INFO[0059] [VU5][ITER17] skip=4650 | статус=200 | время=2842ms | тело=1781606 байт  source=console
+INFO[0059] [VU1][ITER17] skip=4250 | статус=200 | время=2646ms | тело=1770823 байт  source=console
+INFO[0059] [VU3][ITER14] skip=3700 | статус=200 | время=2834ms | тело=1642797 байт  source=console
+INFO[0061] [VU4][ITER15] skip=4050 | статус=200 | время=2402ms | тело=1577662 байт  source=console
+INFO[0061] [VU2][ITER16] skip=4100 | статус=200 | время=2691ms | тело=1596819 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=4.35s
+    ✗ 'p(99)<1500' p(99)=4.59s
+
+    http_req_failed
+    ✗ 'rate<0.01' rate=4.49%
+
+    response_time
+    ✗ 'p(95)<1000' p(95)=4360.25
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 257    4.150594/s
+    checks_succeeded...: 67.31% 173 out of 257
+    checks_failed......: 32.68% 84 out of 257
+
+    ✓ login status 200 (VU 1)
+    ✓ login status 200 (VU 2)
+    ✓ login status 200 (VU 3)
+    ✓ login status 200 (VU 4)
+    ✓ login status 200 (VU 5)
+    ✗ ✓ [VU5] статус 200
+      ↳  94% — ✓ 17 / ✗ 1
+    ✗ ✓ [VU5] время < 2с
+      ↳  5% — ✓ 1 / ✗ 17
+    ✓ ✓ [VU5] тело не пустое
+    ✗ ✓ [VU3] статус 200
+      ↳  93% — ✓ 14 / ✗ 1
+    ✗ ✓ [VU3] время < 2с
+      ↳  6% — ✓ 1 / ✗ 14
+    ✓ ✓ [VU3] тело не пустое
+    ✗ ✓ [VU2] статус 200
+      ↳  94% — ✓ 16 / ✗ 1
+    ✗ ✓ [VU2] время < 2с
+      ↳  5% — ✓ 1 / ✗ 16
+    ✓ ✓ [VU2] тело не пустое
+    ✗ ✓ [VU1] статус 200
+      ↳  94% — ✓ 17 / ✗ 1
+    ✗ ✓ [VU1] время < 2с
+      ↳  5% — ✓ 1 / ✗ 17
+    ✓ ✓ [VU1] тело не пустое
+    ✓ ✓ [VU4] статус 200
+    ✗ ✓ [VU4] время < 2с
+      ↳  0% — ✓ 0 / ✗ 16
+    ✓ ✓ [VU4] тело не пустое
+
+    CUSTOM
+    error_rate.....................: 100.00% 84 out of 84
+    requests_total.................: 84      1.356614/s
+    response_time..................: avg=2666.357143 min=301      med=2506  max=4690  p(90)=3787.1 p(95)=4360.25
+
+    HTTP
+    http_req_duration..............: avg=2.51s       min=2.64ms   med=2.48s max=4.68s p(90)=3.77s  p(95)=4.35s  
+      { expected_response:true }...: avg=2.61s       min=2.64ms   med=2.5s  max=4.68s p(90)=3.78s  p(95)=4.35s  
+    http_req_failed................: 4.49%   4 out of 89
+    http_reqs......................: 89      1.437365/s
+
+    EXECUTION
+    iteration_duration.............: avg=3.63s       min=682.12ms med=3.47s max=6.21s p(90)=4.8s   p(95)=5.53s  
+    iterations.....................: 84      1.356614/s
+    vus............................: 3       min=3        max=5
+    vus_max........................: 5       min=5        max=5
+
+    NETWORK
+    data_received..................: 130 MB  2.1 MB/s
+    data_sent......................: 45 kB   728 B/s
+
+
+
+
+running (1m01.9s), 0/5 VUs, 84 complete and 0 interrupted iterations
+multiple_users ✓ [======================================] 5 VUs  1m0s
+ERRO[0062] TypeError: Cannot read property 'count' of undefined
+        at teardown (file:///home/aa.semikov@titan2.ru/project/load-test/parsec_event_five_user.js:108:103(6))  hint="script exception"
+aa.semikov@app-sb01-ddt-7:~/project$ k6 run load-test/parsec_event_five_user.js 
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load-test/parsec_event_five_user.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 5 max VUs, 1m30s max duration (incl. graceful stop):
+              * multiple_users: 5 looping VUs for 1m0s (gracefulStop: 30s)
+
+INFO[0000] 🚀 Запуск теста: 5 пользователей, длительность 10 минут  source=console
+INFO[0002] [VU4][ITER0] skip=300 | статус=200 | время=2445ms | тело=122472 байт  source=console
+INFO[0002] [VU5][ITER0] skip=400 | статус=200 | время=2787ms | тело=123067 байт  source=console
+INFO[0005] [VU2][ITER0] skip=100 | статус=200 | время=5871ms | тело=154160 байт  source=console
+INFO[0006] [VU1][ITER0] skip=0 | статус=200 | время=6194ms | тело=145387 байт  source=console
+INFO[0006] [VU3][ITER0] skip=200 | статус=200 | время=6279ms | тело=141424 байт  source=console
+INFO[0006] [VU5][ITER1] skip=650 | статус=200 | время=2196ms | тело=135375 байт  source=console
+INFO[0006] [VU4][ITER1] skip=550 | статус=200 | время=2408ms | тело=134804 байт  source=console
+INFO[0008] [VU2][ITER1] skip=350 | статус=200 | время=2139ms | тело=126752 байт  source=console
+INFO[0009] [VU4][ITER2] skip=800 | статус=200 | время=2245ms | тело=123465 байт  source=console
+INFO[0011] [VU5][ITER2] skip=900 | статус=200 | время=5388ms | тело=163622 байт  source=console
+INFO[0011] [VU4][ITER3] skip=1050 | статус=200 | время=2442ms | тело=167243 байт  source=console
+INFO[0012] [VU3][ITER1] skip=450 | статус=200 | время=5410ms | тело=124511 байт  source=console
+INFO[0012] [VU1][ITER1] skip=250 | статус=200 | время=4804ms | тело=134357 байт  source=console
+INFO[0012] [VU2][ITER2] skip=600 | статус=200 | время=2283ms | тело=135656 байт  source=console
+INFO[0014] [VU5][ITER3] skip=1150 | статус=200 | время=2451ms | тело=186343 байт  source=console
+INFO[0016] [VU4][ITER4] skip=1300 | статус=200 | время=2317ms | тело=143881 байт  source=console
+INFO[0016] [VU2][ITER3] skip=850 | статус=200 | время=2309ms | тело=127959 байт  source=console
+INFO[0019] [VU1][ITER2] skip=500 | статус=200 | время=5735ms | тело=153781 байт  source=console
+INFO[0019] [VU4][ITER5] skip=1550 | статус=200 | время=3037ms | тело=127846 байт  source=console
+INFO[0019] [VU3][ITER2] skip=700 | статус=200 | время=5872ms | тело=136438 байт  source=console
+INFO[0020] [VU2][ITER4] skip=1100 | статус=200 | время=2456ms | тело=150822 байт  source=console
+INFO[0020] [VU5][ITER4] skip=1400 | статус=200 | время=6015ms | тело=150081 байт  source=console
+INFO[0022] [VU1][ITER3] skip=750 | статус=200 | время=2491ms | тело=135231 байт  source=console
+INFO[0024] [VU3][ITER3] skip=950 | статус=200 | время=4307ms | тело=140647 байт  source=console
+INFO[0024] [VU2][ITER5] skip=1350 | статус=200 | время=4240ms | тело=146694 байт  source=console
+INFO[0024] [VU4][ITER6] skip=1800 | статус=200 | время=4432ms | тело=162353 байт  source=console
+INFO[0026] [VU5][ITER5] skip=1650 | статус=200 | время=4229ms | тело=151267 байт  source=console
+INFO[0029] [VU1][ITER4] skip=1000 | статус=200 | время=4283ms | тело=161640 байт  source=console
+INFO[0030] [VU3][ITER4] skip=1200 | статус=200 | время=3930ms | тело=148395 байт  source=console
+INFO[0030] [VU5][ITER6] skip=1900 | статус=200 | время=2309ms | тело=150198 байт  source=console
+INFO[0030] [VU4][ITER7] skip=2050 | статус=200 | время=3968ms | тело=198800 байт  source=console
+INFO[0030] [VU2][ITER6] skip=1600 | статус=200 | время=3950ms | тело=151812 байт  source=console
+INFO[0032] [VU1][ITER5] skip=1250 | статус=200 | время=3058ms | тело=151532 байт  source=console
+INFO[0033] [VU4][ITER8] skip=2300 | статус=200 | время=2246ms | тело=172528 байт  source=console
+INFO[0034] [VU2][ITER7] skip=1850 | статус=200 | время=2899ms | тело=157174 байт  source=console
+INFO[0034] [VU5][ITER7] skip=2150 | статус=200 | время=3701ms | тело=163774 байт  source=console
+INFO[0035] [VU3][ITER5] skip=1450 | статус=200 | время=4193ms | тело=144722 байт  source=console
+INFO[0036] [VU4][ITER9] skip=2550 | статус=200 | время=2602ms | тело=157840 байт  source=console
+INFO[0037] [VU2][ITER8] skip=2100 | статус=200 | время=2865ms | тело=152741 байт  source=console
+INFO[0038] [VU1][ITER6] skip=1500 | статус=200 | время=4342ms | тело=140741 байт  source=console
+INFO[0039] [VU5][ITER8] skip=2400 | статус=200 | время=4003ms | тело=163241 байт  source=console
+INFO[0039] [VU3][ITER6] skip=1700 | статус=200 | время=3447ms | тело=184425 байт  source=console
+INFO[0040] [VU2][ITER9] skip=2350 | статус=200 | время=2641ms | тело=168416 байт  source=console
+INFO[0041] [VU4][ITER10] skip=2800 | статус=200 | время=3628ms | тело=143427 байт  source=console
+INFO[0043] [VU1][ITER7] skip=1750 | статус=200 | время=3741ms | тело=163023 байт  source=console
+INFO[0044] [VU3][ITER7] skip=1950 | статус=200 | время=4391ms | тело=144306 байт  source=console
+INFO[0044] [VU2][ITER10] skip=2600 | статус=200 | время=2563ms | тело=157999 байт  source=console
+INFO[0045] [VU5][ITER9] skip=2650 | статус=200 | время=4457ms | тело=158854 байт  source=console
+INFO[0045] [VU4][ITER11] skip=3050 | статус=200 | время=3708ms | тело=141297 байт  source=console
+INFO[0048] [VU1][ITER8] skip=2000 | статус=200 | время=3911ms | тело=146618 байт  source=console
+INFO[0048] [VU5][ITER10] skip=2900 | статус=200 | время=3312ms | тело=130719 байт  source=console
+INFO[0048] [VU2][ITER11] skip=2850 | статус=200 | время=2447ms | тело=138333 байт  source=console
+INFO[0050] [VU3][ITER8] skip=2200 | статус=200 | время=3410ms | тело=168462 байт  source=console
+INFO[0050] [VU4][ITER12] skip=3300 | статус=200 | время=3809ms | тело=165957 байт  source=console
+INFO[0051] [VU5][ITER11] skip=3150 | статус=200 | время=2580ms | тело=153123 байт  source=console
+INFO[0053] [VU2][ITER12] skip=3100 | статус=200 | время=4483ms | тело=146431 байт  source=console
+INFO[0054] [VU1][ITER9] skip=2250 | статус=200 | время=4177ms | тело=168592 байт  source=console
+INFO[0055] [VU3][ITER9] skip=2450 | статус=200 | время=4387ms | тело=160356 байт  source=console
+INFO[0055] [VU4][ITER13] skip=3550 | статус=200 | время=4687ms | тело=113241 байт  source=console
+INFO[0057] [VU5][ITER12] skip=3400 | статус=200 | время=3911ms | тело=164833 байт  source=console
+INFO[0058] [VU3][ITER10] skip=2700 | статус=200 | время=2372ms | тело=158537 байт  source=console
+INFO[0058] [VU2][ITER13] skip=3350 | статус=200 | время=4204ms | тело=169746 байт  source=console
+INFO[0059] [VU1][ITER10] skip=2500 | статус=200 | время=3981ms | тело=104531 байт  source=console
+INFO[0060] [VU4][ITER14] skip=3800 | статус=200 | время=4334ms | тело=151664 байт  source=console
+INFO[0061] [VU5][ITER13] skip=3650 | статус=200 | время=4100ms | тело=124501 байт  source=console
+INFO[0062] [VU1][ITER11] skip=2750 | статус=200 | время=2635ms | тело=163719 байт  source=console
+INFO[0062] [VU3][ITER11] skip=2950 | статус=200 | время=3308ms | тело=135239 байт  source=console
+
+
+  █ THRESHOLDS 
+
+    error_rate
+    ✗ 'rate<0.05' rate=100.00%
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=5.87s
+    ✗ 'p(99)<1500' p(99)=6.21s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+    response_time
+    ✗ 'p(95)<1000' p(95)=5871.7
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 206    3.233473/s
+    checks_succeeded...: 67.47% 139 out of 206
+    checks_failed......: 32.52% 67 out of 206
+
+    ✓ login status 200 (VU 1)
+    ✓ login status 200 (VU 2)
+    ✓ login status 200 (VU 3)
+    ✓ login status 200 (VU 4)
+    ✓ login status 200 (VU 5)
+    ✓ ✓ [VU4] статус 200
+    ✗ ✓ [VU4] время < 2с
+      ↳  0% — ✓ 0 / ✗ 15
+    ✓ ✓ [VU4] тело не пустое
+    ✓ ✓ [VU5] статус 200
+    ✗ ✓ [VU5] время < 2с
+      ↳  0% — ✓ 0 / ✗ 14
+    ✓ ✓ [VU5] тело не пустое
+    ✓ ✓ [VU2] статус 200
+    ✗ ✓ [VU2] время < 2с
+      ↳  0% — ✓ 0 / ✗ 14
+    ✓ ✓ [VU2] тело не пустое
+    ✓ ✓ [VU1] статус 200
+    ✗ ✓ [VU1] время < 2с
+      ↳  0% — ✓ 0 / ✗ 12
+    ✓ ✓ [VU1] тело не пустое
+    ✓ ✓ [VU3] статус 200
+    ✗ ✓ [VU3] время < 2с
+      ↳  0% — ✓ 0 / ✗ 12
+    ✓ ✓ [VU3] тело не пустое
+
+    CUSTOM
+    error_rate.....................: 100.00% 67 out of 67
+    requests_total.................: 67      1.051663/s
+    response_time..................: avg=3667.985075 min=2139   med=3741  max=6279  p(90)=5396.8 p(95)=5871.7
+
+    HTTP
+    http_req_duration..............: avg=3.41s       min=1.91ms med=3.66s max=6.27s p(90)=5.32s  p(95)=5.87s 
+      { expected_response:true }...: avg=3.41s       min=1.91ms med=3.66s max=6.27s p(90)=5.32s  p(95)=5.87s 
+    http_req_failed................: 0.00%   0 out of 72
+    http_reqs......................: 72      1.130146/s
+
+    EXECUTION
+    iteration_duration.............: avg=4.6s        min=2.26s  med=4.44s max=7.68s p(90)=6.22s  p(95)=6.6s  
+    iterations.....................: 67      1.051663/s
+    vus............................: 1       min=1        max=5
+    vus_max........................: 5       min=5        max=5
+
+    NETWORK
+    data_received..................: 9.52 MB  1.7 MB/s
+    data_sent......................: 36 kB   567 B/s
+
+
+
+
+running (1m03.7s), 0/5 VUs, 67 complete and 0 interrupted iterations
+multiple_users ✓ [======================================] 5 VUs  1m0s
